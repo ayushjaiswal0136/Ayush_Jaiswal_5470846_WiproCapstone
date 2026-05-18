@@ -1,0 +1,4 @@
+INFO     root:conftest.py:17 STARTING TEST
+INFO     root:test_bus_booking.py:23 STARTING BUS SEARCH TEST
+INFO     root:login_page.py:34 OPENING LOGIN POPUP
+INFO     root:conftest.py:44 CLOSING TEST

@@ -1,0 +1,45 @@
+[32mINFO    [0m root:conftest.py:17 ========== STARTING TEST ==========
+[32mINFO    [0m root:conftest.py:60 OPENING MAKEMYTRIP WEBSITE
+[32mINFO    [0m root:conftest.py:66 CURRENT URL: https://www.makemytrip.com/bus-tickets/
+[32mINFO    [0m root:test_e2e_booking.py:44 STARTING E2E FLOW
+[32mINFO    [0m root:home_page.py:265 STARTING BUS SEARCH
+[32mINFO    [0m root:home_page.py:41 LOGIN POPUP CLOSED
+[32mINFO    [0m root:home_page.py:96 BUS TAB ISSUE: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a14c1e35+2e8d45]
+	chromedriver!GetHandleVerifier [0x7ff7a11ee6c0+155d0]
+	chromedriver!(No symbol) [0x7ff7a0f3d57d]
+	chromedriver!(No symbol) [0x7ff7a0f9767e]
+	chromedriver!(No symbol) [0x7ff7a0f9798c]
+	chromedriver!(No symbol) [0x7ff7a0fe80c7]
+	chromedriver!(No symbol) [0x7ff7a0fe4c63]
+	chromedriver!(No symbol) [0x7ff7a0f89d58]
+	chromedriver!(No symbol) [0x7ff7a0f8ac43]
+	chromedriver!GetHandleVerifier [0x7ff7a14edab9+3149c9]
+	chromedriver!GetHandleVerifier [0x7ff7a14e802b+30ef3b]
+	chromedriver!GetHandleVerifier [0x7ff7a150c872+333782]
+	chromedriver!GetHandleVerifier [0x7ff7a120b785+32695]
+	chromedriver!GetHandleVerifier [0x7ff7a12142bc+3b1cc]
+	chromedriver!GetHandleVerifier [0x7ff7a11f7f24+1ee34]
+	chromedriver!GetHandleVerifier [0x7ff7a11f80b4+1efc4]
+	chromedriver!GetHandleVerifier [0x7ff7a11dbf27+2e37]
+	KERNEL32!BaseThreadInitThunk [0x7ffbcb57e957+17]
+	ntdll!RtlUserThreadStart [0x7ffbcbfc427c+2c]
+
+[32mINFO    [0m root:home_page.py:283 FROM CITY: Lucknow
+[32mINFO    [0m root:home_page.py:111 CLICKED FIELD: Lucknow
+[32mINFO    [0m root:home_page.py:146 TYPED CITY: Lucknow
+[32mINFO    [0m root:home_page.py:166 SELECTED CITY: Lucknow
+[32mINFO    [0m root:home_page.py:292 TO CITY: Delhi
+[32mINFO    [0m root:home_page.py:111 CLICKED FIELD: Delhi
+[32mINFO    [0m root:home_page.py:146 TYPED CITY: Delhi
+[32mINFO    [0m root:home_page.py:166 SELECTED CITY: Delhi
+[32mINFO    [0m root:home_page.py:197 DATE BOX CLICKED
+[32mINFO    [0m root:home_page.py:217 DATE SELECTED
+[32mINFO    [0m root:home_page.py:233 CLICKING SEARCH BUTTON
+[32mINFO    [0m root:home_page.py:259 SEARCH BUTTON CLICKED SUCCESSFULLY
+[32mINFO    [0m root:home_page.py:305 BUS SEARCH COMPLETED
+[32mINFO    [0m root:bus_search_page.py:24 WAITING FOR BUS SEARCH RESULT PAGE
+[32mINFO    [0m root:bus_search_page.py:40 CURRENT URL: https://www.makemytrip.com/bus-tickets/search?from=Lucknow,%20Uttar%20Pradesh&to=Delhi&fromCode=MMTCC2161&toCode=MMTCC1199&departureDate=20-05-2026
+[32mINFO    [0m root:conftest.py:72 ========== CLOSING TEST ==========
+[32mINFO    [0m root:conftest.py:78 BROWSER CLOSED SUCCESSFULLY

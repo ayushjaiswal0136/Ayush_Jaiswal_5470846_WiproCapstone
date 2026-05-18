@@ -1,5 +1,5 @@
 selenium
-webdriver-manager
+#webdriver-manager
 pytest
 pytest-order
 openpyxl

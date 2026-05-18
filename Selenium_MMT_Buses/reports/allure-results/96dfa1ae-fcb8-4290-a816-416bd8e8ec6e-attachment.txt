@@ -1,0 +1,72 @@
+[32mINFO    [0m root:conftest.py:16 STARTING TEST
+[32mINFO    [0m root:test_e2e_booking.py:44 STARTING E2E FLOW
+[32mINFO    [0m root:home_page.py:206 STARTING BUS SEARCH
+[32mINFO    [0m root:home_page.py:91 NO POPUP FOUND
+[32mINFO    [0m root:home_page.py:216 FROM CITY: Lucknow
+[31m[1mERROR   [0m root:home_page.py:188 ATTEMPT 1 FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff75c35e295+e0f5]
+	msedgedriver!GetHandleVerifier [0x7ff75c35e2f4+e154]
+	msedgedriver!(No symbol) [0x7ff75c08ac4e]
+	msedgedriver!(No symbol) [0x7ff75c0c8d05]
+	msedgedriver!(No symbol) [0x7ff75c0f4022]
+	msedgedriver!(No symbol) [0x7ff75c082767]
+	msedgedriver!(No symbol) [0x7ff75c0f06ae]
+	msedgedriver!(No symbol) [0x7ff75c0eff3c]
+	msedgedriver!(No symbol) [0x7ff75c062ea5]
+	msedgedriver!(No symbol) [0x7ff75c192519]
+	msedgedriver!(No symbol) [0x7ff75c18ec93]
+	msedgedriver!(No symbol) [0x7ff75c19f182]
+	msedgedriver!GetHandleVerifier [0x7ff75c37aa68+2a8c8]
+	msedgedriver!GetHandleVerifier [0x7ff75c3832f6+33156]
+	msedgedriver!(No symbol) [0x7ff75c06183c]
+	msedgedriver!GetHandleVerifier [0x7ff75c4e4368+1941c8]
+	KERNEL32!BaseThreadInitThunk [0x7ffd9b1ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffd9c76427c+2c]
+
+[32mINFO    [0m root:home_page.py:91 NO POPUP FOUND
+[31m[1mERROR   [0m root:home_page.py:188 ATTEMPT 2 FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff75c35e295+e0f5]
+	msedgedriver!GetHandleVerifier [0x7ff75c35e2f4+e154]
+	msedgedriver!(No symbol) [0x7ff75c08ac4e]
+	msedgedriver!(No symbol) [0x7ff75c0c8d05]
+	msedgedriver!(No symbol) [0x7ff75c0f4022]
+	msedgedriver!(No symbol) [0x7ff75c082767]
+	msedgedriver!(No symbol) [0x7ff75c0f06ae]
+	msedgedriver!(No symbol) [0x7ff75c0eff3c]
+	msedgedriver!(No symbol) [0x7ff75c062ea5]
+	msedgedriver!(No symbol) [0x7ff75c192519]
+	msedgedriver!(No symbol) [0x7ff75c18ec93]
+	msedgedriver!(No symbol) [0x7ff75c19f182]
+	msedgedriver!GetHandleVerifier [0x7ff75c37aa68+2a8c8]
+	msedgedriver!GetHandleVerifier [0x7ff75c3832f6+33156]
+	msedgedriver!(No symbol) [0x7ff75c06183c]
+	msedgedriver!GetHandleVerifier [0x7ff75c4e4368+1941c8]
+	KERNEL32!BaseThreadInitThunk [0x7ffd9b1ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffd9c76427c+2c]
+
+[32mINFO    [0m root:home_page.py:91 NO POPUP FOUND
+[31m[1mERROR   [0m root:home_page.py:188 ATTEMPT 3 FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff75c35e295+e0f5]
+	msedgedriver!GetHandleVerifier [0x7ff75c35e2f4+e154]
+	msedgedriver!(No symbol) [0x7ff75c08ac4e]
+	msedgedriver!(No symbol) [0x7ff75c0c8d05]
+	msedgedriver!(No symbol) [0x7ff75c0f4022]
+	msedgedriver!(No symbol) [0x7ff75c082767]
+	msedgedriver!(No symbol) [0x7ff75c0f06ae]
+	msedgedriver!(No symbol) [0x7ff75c0eff3c]
+	msedgedriver!(No symbol) [0x7ff75c062ea5]
+	msedgedriver!(No symbol) [0x7ff75c192519]
+	msedgedriver!(No symbol) [0x7ff75c18ec93]
+	msedgedriver!(No symbol) [0x7ff75c19f182]
+	msedgedriver!GetHandleVerifier [0x7ff75c37aa68+2a8c8]
+	msedgedriver!GetHandleVerifier [0x7ff75c3832f6+33156]
+	msedgedriver!(No symbol) [0x7ff75c06183c]
+	msedgedriver!GetHandleVerifier [0x7ff75c4e4368+1941c8]
+	KERNEL32!BaseThreadInitThunk [0x7ffd9b1ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffd9c76427c+2c]
+
+[32mINFO    [0m root:home_page.py:91 NO POPUP FOUND
+[32mINFO    [0m root:conftest.py:49 CLOSING TEST

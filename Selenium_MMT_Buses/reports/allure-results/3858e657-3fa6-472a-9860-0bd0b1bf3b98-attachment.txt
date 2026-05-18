@@ -1,0 +1,26 @@
+[32mINFO    [0m root:conftest.py:17 STARTING TEST
+[32mINFO    [0m root:test_e2e_booking.py:44 STARTING E2E FLOW
+[32mINFO    [0m root:home_page.py:259 STARTING BUS SEARCH
+[32mINFO    [0m root:home_page.py:66 NO POPUP FOUND
+[32mINFO    [0m root:home_page.py:96 BUS TAB ISSUE: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6661d1e35+2e8d45]
+	chromedriver!GetHandleVerifier [0x7ff665efe6c0+155d0]
+	chromedriver!(No symbol) [0x7ff665c4d366]
+	chromedriver!(No symbol) [0x7ff665c98dd6]
+	chromedriver!(No symbol) [0x7ff665ccfd72]
+	chromedriver!(No symbol) [0x7ff665cc9baf]
+	chromedriver!(No symbol) [0x7ff665cc9373]
+	chromedriver!(No symbol) [0x7ff665c16325]
+	chromedriver!GetHandleVerifier [0x7ff6661fdab9+3149c9]
+	chromedriver!GetHandleVerifier [0x7ff6661f802b+30ef3b]
+	chromedriver!GetHandleVerifier [0x7ff66621c872+333782]
+	chromedriver!GetHandleVerifier [0x7ff665f1b785+32695]
+	chromedriver!GetHandleVerifier [0x7ff665f242bc+3b1cc]
+	chromedriver!(No symbol) [0x7ff665c150bc]
+	chromedriver!GetHandleVerifier [0x7ff66634dc58+464b68]
+	KERNEL32!BaseThreadInitThunk [0x7ffd9b1ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffd9c76427c+2c]
+
+[32mINFO    [0m root:home_page.py:277 FROM CITY: Lucknow
+[32mINFO    [0m root:conftest.py:44 CLOSING TEST

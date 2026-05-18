@@ -1,0 +1,42 @@
+[32mINFO    [0m root:conftest.py:17 STARTING TEST
+[32mINFO    [0m root:conftest.py:62 MAKEMYTRIP BUS PAGE OPENED
+[32mINFO    [0m root:test_e2e_booking.py:44 STARTING E2E FLOW
+[32mINFO    [0m root:home_page.py:261 STARTING BUS SEARCH
+[32mINFO    [0m root:home_page.py:41 LOGIN POPUP CLOSED
+[32mINFO    [0m root:home_page.py:96 BUS TAB ISSUE: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff649301e35+2e8d45]
+	chromedriver!GetHandleVerifier [0x7ff64902e6c0+155d0]
+	chromedriver!(No symbol) [0x7ff648d7d57d]
+	chromedriver!(No symbol) [0x7ff648dd767e]
+	chromedriver!(No symbol) [0x7ff648dd798c]
+	chromedriver!(No symbol) [0x7ff648e280c7]
+	chromedriver!(No symbol) [0x7ff648e24c63]
+	chromedriver!(No symbol) [0x7ff648dc9d58]
+	chromedriver!(No symbol) [0x7ff648dcac43]
+	chromedriver!GetHandleVerifier [0x7ff64932dab9+3149c9]
+	chromedriver!GetHandleVerifier [0x7ff64932802b+30ef3b]
+	chromedriver!GetHandleVerifier [0x7ff64934c872+333782]
+	chromedriver!GetHandleVerifier [0x7ff64904b785+32695]
+	chromedriver!GetHandleVerifier [0x7ff6490542bc+3b1cc]
+	chromedriver!GetHandleVerifier [0x7ff649037f24+1ee34]
+	chromedriver!GetHandleVerifier [0x7ff6490380b4+1efc4]
+	chromedriver!GetHandleVerifier [0x7ff64901bf27+2e37]
+	KERNEL32!BaseThreadInitThunk [0x7ff8eb37e957+17]
+	ntdll!RtlUserThreadStart [0x7ff8ebd4427c+2c]
+
+[32mINFO    [0m root:home_page.py:279 FROM CITY: Lucknow
+[32mINFO    [0m root:home_page.py:112 CLICKED FIELD: Lucknow
+[32mINFO    [0m root:home_page.py:148 TYPED CITY: Lucknow
+[32mINFO    [0m root:home_page.py:168 SELECTED CITY: Lucknow
+[32mINFO    [0m root:home_page.py:288 TO CITY: Delhi
+[32mINFO    [0m root:home_page.py:112 CLICKED FIELD: Delhi
+[32mINFO    [0m root:home_page.py:148 TYPED CITY: Delhi
+[32mINFO    [0m root:home_page.py:168 SELECTED CITY: Delhi
+[32mINFO    [0m root:home_page.py:199 DATE BOX CLICKED
+[32mINFO    [0m root:home_page.py:221 DATE SELECTED
+[32mINFO    [0m root:home_page.py:253 SEARCH BUTTON CLICKED
+[32mINFO    [0m root:home_page.py:301 BUS SEARCH COMPLETED
+[32mINFO    [0m root:bus_search_page.py:23 WAITING FOR BUS RESULT PAGE
+[32mINFO    [0m root:bus_search_page.py:36 BUS SEARCH URL VERIFIED
+[32mINFO    [0m root:conftest.py:66 CLOSING TEST

@@ -1,0 +1,41 @@
+[32mINFO    [0m root:conftest.py:17 ========== STARTING TEST ==========
+[32mINFO    [0m root:conftest.py:60 OPENING MAKEMYTRIP WEBSITE
+[32mINFO    [0m root:conftest.py:66 CURRENT URL: https://www.makemytrip.com/bus-tickets/
+[32mINFO    [0m root:test_e2e_booking.py:44 STARTING E2E FLOW
+[32mINFO    [0m root:home_page.py:264 STARTING BUS SEARCH
+[32mINFO    [0m root:home_page.py:41 LOGIN POPUP CLOSED
+[32mINFO    [0m root:home_page.py:96 BUS TAB ISSUE: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7f7731e35+2e8d45]
+	chromedriver!GetHandleVerifier [0x7ff7f745e6c0+155d0]
+	chromedriver!(No symbol) [0x7ff7f71ad57d]
+	chromedriver!(No symbol) [0x7ff7f720767e]
+	chromedriver!(No symbol) [0x7ff7f720798c]
+	chromedriver!(No symbol) [0x7ff7f72580c7]
+	chromedriver!(No symbol) [0x7ff7f7254c63]
+	chromedriver!(No symbol) [0x7ff7f71f9d58]
+	chromedriver!(No symbol) [0x7ff7f71fac43]
+	chromedriver!GetHandleVerifier [0x7ff7f775dab9+3149c9]
+	chromedriver!GetHandleVerifier [0x7ff7f775802b+30ef3b]
+	chromedriver!GetHandleVerifier [0x7ff7f777c872+333782]
+	chromedriver!GetHandleVerifier [0x7ff7f747b785+32695]
+	chromedriver!GetHandleVerifier [0x7ff7f74842bc+3b1cc]
+	chromedriver!GetHandleVerifier [0x7ff7f7467f24+1ee34]
+	chromedriver!GetHandleVerifier [0x7ff7f74680b4+1efc4]
+	chromedriver!GetHandleVerifier [0x7ff7f744bf27+2e37]
+	KERNEL32!BaseThreadInitThunk [0x7ff8eb37e957+17]
+	ntdll!RtlUserThreadStart [0x7ff8ebd4427c+2c]
+
+[32mINFO    [0m root:home_page.py:282 FROM CITY: Lucknow
+[32mINFO    [0m root:home_page.py:111 CLICKED FIELD: Lucknow
+[32mINFO    [0m root:home_page.py:146 TYPED CITY: Lucknow
+[32mINFO    [0m root:home_page.py:166 SELECTED CITY: Lucknow
+[32mINFO    [0m root:home_page.py:291 TO CITY: Delhi
+[32mINFO    [0m root:home_page.py:111 CLICKED FIELD: Delhi
+[32mINFO    [0m root:home_page.py:146 TYPED CITY: Delhi
+[32mINFO    [0m root:home_page.py:166 SELECTED CITY: Delhi
+[32mINFO    [0m root:home_page.py:197 DATE BOX CLICKED
+[32mINFO    [0m root:home_page.py:217 DATE SELECTED
+[32mINFO    [0m root:home_page.py:233 CLICKING SEARCH BUTTON
+[32mINFO    [0m root:conftest.py:72 ========== CLOSING TEST ==========
+[32mINFO    [0m root:conftest.py:78 BROWSER CLOSED SUCCESSFULLY

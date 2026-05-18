@@ -1,0 +1,29 @@
+[32mINFO    [0m root:conftest.py:17 STARTING TEST
+[32mINFO    [0m root:test_e2e_booking.py:44 STARTING E2E FLOW
+[32mINFO    [0m root:home_page.py:259 STARTING BUS SEARCH
+[32mINFO    [0m root:home_page.py:66 NO POPUP FOUND
+[32mINFO    [0m root:home_page.py:96 BUS TAB ISSUE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.168)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff668d11e35+2e8d45]
+	chromedriver!GetHandleVerifier [0x7ff668a3e6c0+155d0]
+	chromedriver!(No symbol) [0x7ff66878d57d]
+	chromedriver!(No symbol) [0x7ff6687640f2]
+	chromedriver!(No symbol) [0x7ff668817326]
+	chromedriver!(No symbol) [0x7ff668834532]
+	chromedriver!(No symbol) [0x7ff6687d9d58]
+	chromedriver!(No symbol) [0x7ff6687dac43]
+	chromedriver!GetHandleVerifier [0x7ff668d3dab9+3149c9]
+	chromedriver!GetHandleVerifier [0x7ff668d3802b+30ef3b]
+	chromedriver!GetHandleVerifier [0x7ff668d5c872+333782]
+	chromedriver!GetHandleVerifier [0x7ff668a5b785+32695]
+	chromedriver!GetHandleVerifier [0x7ff668a642bc+3b1cc]
+	chromedriver!GetHandleVerifier [0x7ff668a47f24+1ee34]
+	chromedriver!GetHandleVerifier [0x7ff668a480b4+1efc4]
+	chromedriver!GetHandleVerifier [0x7ff668a2bf27+2e37]
+	KERNEL32!BaseThreadInitThunk [0x7ffd9b1ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffd9c76427c+2c]
+
+[32mINFO    [0m root:home_page.py:277 FROM CITY: Lucknow
+[32mINFO    [0m root:conftest.py:44 CLOSING TEST

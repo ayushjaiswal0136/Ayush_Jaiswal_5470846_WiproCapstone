@@ -1,0 +1,44 @@
+[32mINFO    [0m root:conftest.py:17 STARTING TEST
+[32mINFO    [0m root:test_e2e_booking.py:44 STARTING E2E FLOW
+[32mINFO    [0m root:home_page.py:302 STARTING BUS SEARCH
+[32mINFO    [0m root:home_page.py:41 LOGIN POPUP CLOSED
+[32mINFO    [0m root:home_page.py:96 BUS TAB ISSUE: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff78cd21e35+2e8d45]
+	chromedriver!GetHandleVerifier [0x7ff78ca4e6c0+155d0]
+	chromedriver!(No symbol) [0x7ff78c79d57d]
+	chromedriver!(No symbol) [0x7ff78c7f767e]
+	chromedriver!(No symbol) [0x7ff78c7f798c]
+	chromedriver!(No symbol) [0x7ff78c8480c7]
+	chromedriver!(No symbol) [0x7ff78c844c63]
+	chromedriver!(No symbol) [0x7ff78c7e9d58]
+	chromedriver!(No symbol) [0x7ff78c7eac43]
+	chromedriver!GetHandleVerifier [0x7ff78cd4dab9+3149c9]
+	chromedriver!GetHandleVerifier [0x7ff78cd4802b+30ef3b]
+	chromedriver!GetHandleVerifier [0x7ff78cd6c872+333782]
+	chromedriver!GetHandleVerifier [0x7ff78ca6b785+32695]
+	chromedriver!GetHandleVerifier [0x7ff78ca742bc+3b1cc]
+	chromedriver!GetHandleVerifier [0x7ff78ca57f24+1ee34]
+	chromedriver!GetHandleVerifier [0x7ff78ca580b4+1efc4]
+	chromedriver!GetHandleVerifier [0x7ff78ca3bf27+2e37]
+	KERNEL32!BaseThreadInitThunk [0x7ffd9b1ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffd9c76427c+2c]
+
+[32mINFO    [0m root:home_page.py:320 FROM CITY: Lucknow
+[32mINFO    [0m root:home_page.py:112 CLICKED FIELD: Lucknow
+[32mINFO    [0m root:home_page.py:148 TYPED CITY: Lucknow
+[32mINFO    [0m root:home_page.py:168 SELECTED CITY: Lucknow
+[32mINFO    [0m root:home_page.py:329 TO CITY: Delhi
+[32mINFO    [0m root:home_page.py:112 CLICKED FIELD: Delhi
+[32mINFO    [0m root:home_page.py:148 TYPED CITY: Delhi
+[32mINFO    [0m root:home_page.py:168 SELECTED CITY: Delhi
+[32mINFO    [0m root:home_page.py:199 DATE BOX CLICKED
+[32mINFO    [0m root:home_page.py:221 DATE SELECTED
+[32mINFO    [0m root:home_page.py:237 WAITING BEFORE CLICKING SEARCH
+[32mINFO    [0m root:home_page.py:262 CLICKING SEARCH BUTTON
+[32mINFO    [0m root:home_page.py:279 SEARCH BUTTON CLICKED
+[32mINFO    [0m root:home_page.py:293 RESULT PAGE LOADED
+[32mINFO    [0m root:home_page.py:342 BUS SEARCH COMPLETED
+[32mINFO    [0m root:bus_search_page.py:29 WAITING FOR BUS RESULT PAGE
+[32mINFO    [0m root:bus_search_page.py:41 BUS SEARCH URL VERIFIED
+[32mINFO    [0m root:conftest.py:44 CLOSING TEST

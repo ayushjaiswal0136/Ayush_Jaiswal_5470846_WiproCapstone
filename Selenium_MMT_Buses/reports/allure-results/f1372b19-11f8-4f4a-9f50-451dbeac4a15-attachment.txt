@@ -1,0 +1,33 @@
+[32mINFO    [0m root:conftest.py:17 STARTING TEST
+[32mINFO    [0m root:test_e2e_booking.py:44 STARTING E2E FLOW
+[32mINFO    [0m root:home_page.py:223 STARTING BUS SEARCH
+[32mINFO    [0m root:home_page.py:42 LOGIN POPUP CLOSED
+[32mINFO    [0m root:home_page.py:86 BUS TAB ISSUE: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7e73a1e35+2e8d45]
+	chromedriver!GetHandleVerifier [0x7ff7e70ce6c0+155d0]
+	chromedriver!(No symbol) [0x7ff7e6e1d57d]
+	chromedriver!(No symbol) [0x7ff7e6e7767e]
+	chromedriver!(No symbol) [0x7ff7e6e7798c]
+	chromedriver!(No symbol) [0x7ff7e6ec80c7]
+	chromedriver!(No symbol) [0x7ff7e6ec4c63]
+	chromedriver!(No symbol) [0x7ff7e6e69d58]
+	chromedriver!(No symbol) [0x7ff7e6e6ac43]
+	chromedriver!GetHandleVerifier [0x7ff7e73cdab9+3149c9]
+	chromedriver!GetHandleVerifier [0x7ff7e73c802b+30ef3b]
+	chromedriver!GetHandleVerifier [0x7ff7e73ec872+333782]
+	chromedriver!GetHandleVerifier [0x7ff7e70eb785+32695]
+	chromedriver!GetHandleVerifier [0x7ff7e70f42bc+3b1cc]
+	chromedriver!GetHandleVerifier [0x7ff7e70d7f24+1ee34]
+	chromedriver!GetHandleVerifier [0x7ff7e70d80b4+1efc4]
+	chromedriver!GetHandleVerifier [0x7ff7e70bbf27+2e37]
+	KERNEL32!BaseThreadInitThunk [0x7ffd9b1ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffd9c76427c+2c]
+
+[32mINFO    [0m root:home_page.py:239 FROM CITY: Lucknow
+[32mINFO    [0m root:home_page.py:144 CITY ENTERED: Lucknow
+[32mINFO    [0m root:home_page.py:162 CITY SELECTED: Lucknow
+[32mINFO    [0m root:home_page.py:246 TO CITY: Delhi
+[32mINFO    [0m root:home_page.py:144 CITY ENTERED: Delhi
+[32mINFO    [0m root:home_page.py:162 CITY SELECTED: Delhi
+[32mINFO    [0m root:conftest.py:44 CLOSING TEST

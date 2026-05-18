@@ -1,0 +1,8 @@
+[32mINFO    [0m root:conftest.py:17 ========== STARTING TEST ==========
+[32mINFO    [0m root:conftest.py:60 OPENING MAKEMYTRIP WEBSITE
+[32mINFO    [0m root:conftest.py:66 CURRENT URL: https://www.makemytrip.com/bus-tickets/
+[32mINFO    [0m root:test_e2e_booking.py:44 STARTING E2E FLOW
+[32mINFO    [0m root:home_page.py:208 STARTING BUS SEARCH
+[32mINFO    [0m root:home_page.py:52 NO POPUP FOUND
+[32mINFO    [0m root:conftest.py:72 ========== CLOSING TEST ==========
+[32mINFO    [0m root:conftest.py:78 BROWSER CLOSED SUCCESSFULLY
