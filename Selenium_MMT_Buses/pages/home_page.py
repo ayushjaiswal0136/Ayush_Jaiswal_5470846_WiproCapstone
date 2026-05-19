@@ -19,7 +19,7 @@ class HomePage:
 
         self.wait = WebDriverWait(
             driver,
-            15
+            5
         )
 
     def close_popup(self):
@@ -103,6 +103,7 @@ class HomePage:
             EC.element_to_be_clickable(field)
         )
 
+        # ORIGINAL: Keep JS click to bypass overlapping UI elements
         self.driver.execute_script(
             "arguments[0].click();",
             city_box
@@ -147,21 +148,12 @@ class HomePage:
             f"TYPED CITY: {city}"
         )
 
-        first_option = self.wait.until(
-            EC.element_to_be_clickable(
-                (
-                    By.XPATH,
-                    "//ul[contains(@class,'react-autosuggest')]//li[1]"
-                )
-            )
-        )
+        time.sleep(2)
 
+        # FIX: Keyboard navigation forces React to save the state
+        active_input.send_keys(Keys.ARROW_DOWN)
         time.sleep(1)
-
-        self.driver.execute_script(
-            "arguments[0].click();",
-            first_option
-        )
+        active_input.send_keys(Keys.ENTER)
 
         logger.info(
             f"SELECTED CITY: {city}"
@@ -189,6 +181,7 @@ class HomePage:
                 )
             )
 
+            # ORIGINAL: JS Click to open the calendar safely
             self.driver.execute_script(
                 "arguments[0].click();",
                 date_box
@@ -209,10 +202,8 @@ class HomePage:
                 )
             )
 
-            self.driver.execute_script(
-                "arguments[0].click();",
-                available_dates[2]
-            )
+            # FIX: Standard click on date forces React state hook
+            available_dates[27].click()
 
             logger.info(
                 "DATE SELECTED"

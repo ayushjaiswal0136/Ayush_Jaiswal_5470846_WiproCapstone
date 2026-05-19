@@ -1,7 +1,0 @@
-[32mINFO    [0m root:conftest.py:17 STARTING TEST
-[32mINFO    [0m root:test_e2e_booking.py:44 STARTING E2E FLOW
-[32mINFO    [0m root:home_page.py:198 STARTING BUS SEARCH
-[32mINFO    [0m root:home_page.py:62 NO POPUP FOUND
-[32mINFO    [0m root:home_page.py:87 ALREADY INSIDE BUS PAGE
-[32mINFO    [0m root:home_page.py:218 FROM CITY: Lucknow
-[32mINFO    [0m root:conftest.py:44 CLOSING TEST

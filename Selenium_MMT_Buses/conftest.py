@@ -1,9 +1,9 @@
 import pytest
 import allure
+import time
 
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
+# IMPORT SELENIUMBASE
+from seleniumbase import Driver
 
 from utils.logger import LogGen
 from utils.screenshot_util import ScreenshotUtil
@@ -13,48 +13,14 @@ logger = LogGen.loggen()
 
 @pytest.fixture()
 def driver():
-
     logger.info("========== STARTING TEST ==========")
 
-    options = Options()
-
-    # MAXIMIZE WINDOW
-    options.add_argument("--start-maximized")
-
-    # DISABLE POPUPS
-    options.add_argument("--disable-notifications")
-
-    options.add_argument("--disable-popup-blocking")
-
-    # REMOVE SELENIUM DETECTION ISSUES
-    options.add_experimental_option(
-        "excludeSwitches",
-        ["enable-automation"]
-    )
-
-    options.add_experimental_option(
-        "useAutomationExtension",
-        False
-    )
-
-    # CREATE DRIVER
-    driver = webdriver.Chrome(
-        service=Service(
-            executable_path="drivers/chromedriver.exe"
-        ),
-        options=options
-    )
-
-    # IMPORTANT
+    # CREATE DRIVER USING SELENIUMBASE UC MODE
+    driver = Driver(uc=True)
     driver.maximize_window()
 
-    # REMOVE WEBDRIVER FLAG
-    driver.execute_script(
-        "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
-    )
-
     # WAITS
-    driver.implicitly_wait(10)
+    driver.implicitly_wait(5)
 
     # OPEN WEBSITE
     logger.info("OPENING MAKEMYTRIP WEBSITE")
@@ -62,6 +28,9 @@ def driver():
     driver.get(
         "https://www.makemytrip.com/bus-tickets/"
     )
+
+    # CRITICAL WAF WAIT: Let invisible security scripts resolve
+    time.sleep(2)
 
     logger.info(
         f"CURRENT URL: {driver.current_url}"
@@ -86,7 +55,6 @@ def driver():
 
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item):
-
     outcome = yield
 
     report = outcome.get_result()
