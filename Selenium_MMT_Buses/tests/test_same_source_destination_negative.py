@@ -98,9 +98,7 @@ def test_same_source_destination(driver, data):
         "cannot be same" in actual_error
     ), "VALIDATION ERROR MESSAGE NOT DISPLAYED"
 
-    logger.info(
-        "NEGATIVE TEST PASSED SUCCESSFULLY"
-    )
+    logger.info("SAME ROUTE NEGATIVE TEST PASSED SUCCESSFULLY")
 
     logger.info(
         "========== TEST PASSED =========="

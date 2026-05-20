@@ -1,0 +1,56 @@
+[32mINFO    [0m root:conftest.py:17 ========== STARTING TEST ==========
+[32mINFO    [0m root:conftest.py:27 OPENING MAKEMYTRIP WEBSITE
+[32mINFO    [0m root:conftest.py:36 CURRENT URL: https://www.makemytrip.com/bus-tickets/
+[32mINFO    [0m root:test_e2e_booking.py:167 ========== STARTING E2E FLOW ==========
+[32mINFO    [0m root:home_page.py:256 STARTING BUS SEARCH
+[32mINFO    [0m root:home_page.py:41 LOGIN POPUP CLOSED
+[32mINFO    [0m root:home_page.py:96 BUS TAB ISSUE: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff60f9d1e35+2e8d45]
+	uc_driver!GetHandleVerifier [0x7ff60f6fe6c0+155d0]
+	uc_driver!(No symbol) [0x7ff60f44d57d]
+	uc_driver!(No symbol) [0x7ff60f4a767e]
+	uc_driver!(No symbol) [0x7ff60f4a798c]
+	uc_driver!(No symbol) [0x7ff60f4f80c7]
+	uc_driver!(No symbol) [0x7ff60f4f4c63]
+	uc_driver!(No symbol) [0x7ff60f499d58]
+	uc_driver!(No symbol) [0x7ff60f49ac43]
+	uc_driver!GetHandleVerifier [0x7ff60f9fdab9+3149c9]
+	uc_driver!GetHandleVerifier [0x7ff60f9f802b+30ef3b]
+	uc_driver!GetHandleVerifier [0x7ff60fa1c872+333782]
+	uc_driver!GetHandleVerifier [0x7ff60f71b785+32695]
+	uc_driver!GetHandleVerifier [0x7ff60f7242bc+3b1cc]
+	uc_driver!GetHandleVerifier [0x7ff60f707f24+1ee34]
+	uc_driver!GetHandleVerifier [0x7ff60f7080b4+1efc4]
+	uc_driver!GetHandleVerifier [0x7ff60f6ebf27+2e37]
+	KERNEL32!BaseThreadInitThunk [0x7ff96943e957+17]
+	ntdll!RtlUserThreadStart [0x7ff96aa0427c+2c]
+
+[32mINFO    [0m root:home_page.py:274 FROM CITY: Lucknow
+[32mINFO    [0m root:home_page.py:112 CLICKED FIELD: Lucknow
+[32mINFO    [0m root:home_page.py:147 TYPED CITY: Lucknow
+[32mINFO    [0m root:home_page.py:158 SELECTED CITY: Lucknow
+[32mINFO    [0m root:home_page.py:283 TO CITY: Delhi
+[32mINFO    [0m root:home_page.py:112 CLICKED FIELD: Delhi
+[32mINFO    [0m root:home_page.py:147 TYPED CITY: Delhi
+[32mINFO    [0m root:home_page.py:158 SELECTED CITY: Delhi
+[32mINFO    [0m root:home_page.py:190 DATE BOX CLICKED
+[32mINFO    [0m root:home_page.py:208 DATE SELECTED
+[32mINFO    [0m root:home_page.py:224 CLICKING SEARCH BUTTON
+[32mINFO    [0m root:home_page.py:248 SEARCH BUTTON CLICKED SUCCESSFULLY
+[32mINFO    [0m root:home_page.py:296 BUS SEARCH COMPLETED
+[32mINFO    [0m root:test_e2e_booking.py:182 BUS SEARCH INITIATED
+[32mINFO    [0m root:base_page.py:14 POM LOG: BasePage initialized
+[32mINFO    [0m root:bus_search_page.py:32 POM LOG: VERIFYING RESULTS PAGE
+[32mINFO    [0m root:bus_search_page.py:40 POM LOG: SEARCH RESULTS CONTAINER VALIDATED
+[32mINFO    [0m root:test_e2e_booking.py:197 SEARCH PAGE URL : https://www.makemytrip.com/bus-tickets/search?from=Lucknow%2C+Uttar+Pradesh&to=Delhi&fromCode=MMTCC2161&toCode=MMTCC1199&departureDate=29-05-2026&itineraryId=eeffff18-9169-4282-8c21-c90064507025
+[32mINFO    [0m root:test_e2e_booking.py:202 BUS SEARCH PAGE VERIFIED
+[32mINFO    [0m root:bus_search_page.py:43 POM LOG: APPLYING AC FILTER
+[32mINFO    [0m root:bus_search_page.py:51 POM LOG: AC FILTER DEPLOYED NATIVELY
+[32mINFO    [0m root:test_e2e_booking.py:209 VERIFYING AC FILTER APPLIED
+[32mINFO    [0m root:test_e2e_booking.py:223 AC FILTER VERIFIED
+[32mINFO    [0m root:bus_search_page.py:58 POM LOG: OPENING SEAT MAP FOR TOP COM-ROW
+[32mINFO    [0m root:bus_search_page.py:66 POM LOG: SEAT OPTIONS POPULATED NATIVELY
+[32mINFO    [0m root:test_e2e_booking.py:230 VERIFYING BUS SEAT LAYOUT OPENED
+[32mINFO    [0m root:conftest.py:42 ========== CLOSING TEST ==========
+[32mINFO    [0m root:conftest.py:48 BROWSER CLOSED SUCCESSFULLY

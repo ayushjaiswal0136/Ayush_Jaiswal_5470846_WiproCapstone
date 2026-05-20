@@ -1,0 +1,7 @@
+pytest tests/test_e2e_booking.py -v
+pytest tests/test_route_validation_positive.py -v
+pytest tests/test_filter_validation_positive.py -v
+pytest tests/test_booking_validation_positive.py -v
+pytest tests/test_seat_validation_positive.py -v
+pytest tests/test_same_source_destination_negative.py -v
+pytest tests/test_no_bus_available_negative.py -v

@@ -203,7 +203,7 @@ class HomePage:
             )
 
             # FIX: Standard click on date forces React state hook
-            available_dates[27].click()
+            available_dates[9].click()
 
             logger.info(
                 "DATE SELECTED"

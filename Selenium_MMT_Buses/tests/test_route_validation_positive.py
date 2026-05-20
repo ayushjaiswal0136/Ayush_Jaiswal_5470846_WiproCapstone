@@ -75,6 +75,6 @@ def test_bus_search_headline(driver, data):
     assert "bus" in actual_headline.lower(), \
         "'Bus' keyword not found in headline"
 
-    logger.info("HEADLINE VERIFIED SUCCESSFULLY")
+    logger.info("ROUTE DETAILS VERIFIED SUCCESSFULLY")
 
     logger.info("========== TEST PASSED ==========")

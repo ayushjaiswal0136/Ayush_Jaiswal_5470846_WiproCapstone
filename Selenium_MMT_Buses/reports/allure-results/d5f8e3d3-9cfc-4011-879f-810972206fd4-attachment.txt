@@ -1,30 +1,30 @@
-[32mINFO    [0m root:conftest.py:16 ========== STARTING TEST ==========
-[32mINFO    [0m root:conftest.py:26 OPENING MAKEMYTRIP WEBSITE
-[32mINFO    [0m root:conftest.py:35 CURRENT URL: https://www.makemytrip.com/bus-tickets/
+[32mINFO    [0m root:conftest.py:17 ========== STARTING TEST ==========
+[32mINFO    [0m root:conftest.py:27 OPENING MAKEMYTRIP WEBSITE
+[32mINFO    [0m root:conftest.py:36 CURRENT URL: https://www.makemytrip.com/bus-tickets/
 [32mINFO    [0m root:test_e2e_booking.py:29 STARTING E2E FLOW
 [32mINFO    [0m root:home_page.py:256 STARTING BUS SEARCH
 [32mINFO    [0m root:home_page.py:41 LOGIN POPUP CLOSED
 [32mINFO    [0m root:home_page.py:96 BUS TAB ISSUE: Message: 
 Stacktrace:
-	uc_driver!GetHandleVerifier [0x7ff7cb0e1e35+2e8d45]
-	uc_driver!GetHandleVerifier [0x7ff7cae0e6c0+155d0]
-	uc_driver!(No symbol) [0x7ff7cab5d57d]
-	uc_driver!(No symbol) [0x7ff7cabb767e]
-	uc_driver!(No symbol) [0x7ff7cabb798c]
-	uc_driver!(No symbol) [0x7ff7cac080c7]
-	uc_driver!(No symbol) [0x7ff7cac04c63]
-	uc_driver!(No symbol) [0x7ff7caba9d58]
-	uc_driver!(No symbol) [0x7ff7cabaac43]
-	uc_driver!GetHandleVerifier [0x7ff7cb10dab9+3149c9]
-	uc_driver!GetHandleVerifier [0x7ff7cb10802b+30ef3b]
-	uc_driver!GetHandleVerifier [0x7ff7cb12c872+333782]
-	uc_driver!GetHandleVerifier [0x7ff7cae2b785+32695]
-	uc_driver!GetHandleVerifier [0x7ff7cae342bc+3b1cc]
-	uc_driver!GetHandleVerifier [0x7ff7cae17f24+1ee34]
-	uc_driver!GetHandleVerifier [0x7ff7cae180b4+1efc4]
-	uc_driver!GetHandleVerifier [0x7ff7cadfbf27+2e37]
-	KERNEL32!BaseThreadInitThunk [0x7ffb5acfe957+17]
-	ntdll!RtlUserThreadStart [0x7ffb5b8a427c+2c]
+	uc_driver!GetHandleVerifier [0x7ff64e0e1e35+2e8d45]
+	uc_driver!GetHandleVerifier [0x7ff64de0e6c0+155d0]
+	uc_driver!(No symbol) [0x7ff64db5d57d]
+	uc_driver!(No symbol) [0x7ff64dbb767e]
+	uc_driver!(No symbol) [0x7ff64dbb798c]
+	uc_driver!(No symbol) [0x7ff64dc080c7]
+	uc_driver!(No symbol) [0x7ff64dc04c63]
+	uc_driver!(No symbol) [0x7ff64dba9d58]
+	uc_driver!(No symbol) [0x7ff64dbaac43]
+	uc_driver!GetHandleVerifier [0x7ff64e10dab9+3149c9]
+	uc_driver!GetHandleVerifier [0x7ff64e10802b+30ef3b]
+	uc_driver!GetHandleVerifier [0x7ff64e12c872+333782]
+	uc_driver!GetHandleVerifier [0x7ff64de2b785+32695]
+	uc_driver!GetHandleVerifier [0x7ff64de342bc+3b1cc]
+	uc_driver!GetHandleVerifier [0x7ff64de17f24+1ee34]
+	uc_driver!GetHandleVerifier [0x7ff64de180b4+1efc4]
+	uc_driver!GetHandleVerifier [0x7ff64ddfbf27+2e37]
+	KERNEL32!BaseThreadInitThunk [0x7ff96943e957+17]
+	ntdll!RtlUserThreadStart [0x7ff96aa0427c+2c]
 
 [32mINFO    [0m root:home_page.py:274 FROM CITY: Lucknow
 [32mINFO    [0m root:home_page.py:112 CLICKED FIELD: Lucknow
@@ -85,5 +85,5 @@ Stacktrace:
 [32mINFO    [0m root:test_e2e_booking.py:119 TEST CASE EXECUTION: ALL DATA INJECTED EXCLUSIVELY FROM EXCEL. E2E AUTOMATION COMPLETE.
 [32mINFO    [0m root:test_e2e_booking.py:122 TEST CASE EXECUTION: ENGAGING 5-SECOND RETENTION PAUSE BEFORE CLOSING...
 [32mINFO    [0m root:test_e2e_booking.py:125 E2E FLOW COMPLETED
-[32mINFO    [0m root:conftest.py:41 ========== CLOSING TEST ==========
-[32mINFO    [0m root:conftest.py:47 BROWSER CLOSED SUCCESSFULLY
+[32mINFO    [0m root:conftest.py:42 ========== CLOSING TEST ==========
+[32mINFO    [0m root:conftest.py:48 BROWSER CLOSED SUCCESSFULLY

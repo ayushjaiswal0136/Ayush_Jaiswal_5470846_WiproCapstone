@@ -76,9 +76,7 @@ def test_no_bus_available(driver, data):
         "No bus found on this route" in actual_message
     ), "NO BUS MESSAGE NOT DISPLAYED"
 
-    logger.info(
-        "NEGATIVE TEST PASSED SUCCESSFULLY"
-    )
+    logger.info("NO BUS FOUND NEGATIVE TEST PASSED SUCCESSFULLY")
 
     logger.info(
         "========== TEST PASSED =========="

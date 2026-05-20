@@ -1,6 +1,7 @@
 import pytest
 import allure
 import time
+import os
 
 # IMPORT SELENIUMBASE
 from seleniumbase import Driver
@@ -101,3 +102,14 @@ def pytest_runtest_makereport(item):
             logger.error(
                 f"SCREENSHOT FAILED: {str(e)}"
             )
+
+# AUTO OPEN ALLURE REPORT
+def pytest_unconfigure(config):
+
+    print(
+        "\n======= TESTS COMPLETED - OPENING ALLURE REPORT ======="
+    )
+
+    os.system(
+        "allure serve reports/allure-results"
+    )

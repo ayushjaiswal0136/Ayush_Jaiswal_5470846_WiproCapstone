@@ -62,12 +62,13 @@ def test_sleeper_filter(driver, data):
         )
     )
 
-    # CLICK FILTER
+    # Scrolls webpage until, Sleeper filter element becomes visible
     driver.execute_script(
         "arguments[0].scrollIntoView({block:'center'});",
         sleeper_filter
     )
 
+    # Click
     driver.execute_script(
         "arguments[0].click();",
         sleeper_filter

@@ -109,6 +109,6 @@ def test_booking_page_bus_details(driver, data):
     assert to_city.lower() in page_source, \
         f"{to_city} not found on booking page"
 
-    logger.info("ROUTE DETAILS VERIFIED SUCCESSFULLY")
+    logger.info("COMPLETE YOUR BOOKING HEADLINE VERIFIED SUCCESSFULLY")
 
     logger.info("========== TEST PASSED ==========")
