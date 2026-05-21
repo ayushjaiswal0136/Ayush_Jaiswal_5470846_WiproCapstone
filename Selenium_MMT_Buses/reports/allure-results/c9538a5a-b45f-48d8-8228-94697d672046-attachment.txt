@@ -1,0 +1,89 @@
+[32mINFO    [0m root:conftest.py:17 ========== STARTING TEST ==========
+[32mINFO    [0m root:conftest.py:27 OPENING MAKEMYTRIP WEBSITE
+[32mINFO    [0m root:conftest.py:36 CURRENT URL: https://www.makemytrip.com/bus-tickets/
+[32mINFO    [0m root:test_e2e_booking.py:159 STARTING E2E FLOW
+[32mINFO    [0m root:home_page.py:256 STARTING BUS SEARCH
+[32mINFO    [0m root:home_page.py:41 LOGIN POPUP CLOSED
+[32mINFO    [0m root:home_page.py:96 BUS TAB ISSUE: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff6100d1e35+2e8d45]
+	uc_driver!GetHandleVerifier [0x7ff60fdfe6c0+155d0]
+	uc_driver!(No symbol) [0x7ff60fb4d57d]
+	uc_driver!(No symbol) [0x7ff60fba767e]
+	uc_driver!(No symbol) [0x7ff60fba798c]
+	uc_driver!(No symbol) [0x7ff60fbf80c7]
+	uc_driver!(No symbol) [0x7ff60fbf4c63]
+	uc_driver!(No symbol) [0x7ff60fb99d58]
+	uc_driver!(No symbol) [0x7ff60fb9ac43]
+	uc_driver!GetHandleVerifier [0x7ff6100fdab9+3149c9]
+	uc_driver!GetHandleVerifier [0x7ff6100f802b+30ef3b]
+	uc_driver!GetHandleVerifier [0x7ff61011c872+333782]
+	uc_driver!GetHandleVerifier [0x7ff60fe1b785+32695]
+	uc_driver!GetHandleVerifier [0x7ff60fe242bc+3b1cc]
+	uc_driver!GetHandleVerifier [0x7ff60fe07f24+1ee34]
+	uc_driver!GetHandleVerifier [0x7ff60fe080b4+1efc4]
+	uc_driver!GetHandleVerifier [0x7ff60fdebf27+2e37]
+	KERNEL32!BaseThreadInitThunk [0x7ff96943e957+17]
+	ntdll!RtlUserThreadStart [0x7ff96aa0427c+2c]
+
+[32mINFO    [0m root:home_page.py:274 FROM CITY: Lucknow
+[32mINFO    [0m root:home_page.py:112 CLICKED FIELD: Lucknow
+[32mINFO    [0m root:home_page.py:147 TYPED CITY: Lucknow
+[32mINFO    [0m root:home_page.py:158 SELECTED CITY: Lucknow
+[32mINFO    [0m root:home_page.py:283 TO CITY: Delhi
+[32mINFO    [0m root:home_page.py:112 CLICKED FIELD: Delhi
+[32mINFO    [0m root:home_page.py:147 TYPED CITY: Delhi
+[32mINFO    [0m root:home_page.py:158 SELECTED CITY: Delhi
+[32mINFO    [0m root:home_page.py:190 DATE BOX CLICKED
+[32mINFO    [0m root:home_page.py:208 DATE SELECTED
+[32mINFO    [0m root:home_page.py:224 CLICKING SEARCH BUTTON
+[32mINFO    [0m root:home_page.py:248 SEARCH BUTTON CLICKED SUCCESSFULLY
+[32mINFO    [0m root:home_page.py:296 BUS SEARCH COMPLETED
+[32mINFO    [0m root:test_e2e_booking.py:190 SEARCH PAGE URL VERIFIED
+[32mINFO    [0m root:base_page.py:14 POM LOG: BasePage initialized
+[32mINFO    [0m root:bus_search_page.py:32 POM LOG: VERIFYING RESULTS PAGE
+[32mINFO    [0m root:bus_search_page.py:40 POM LOG: SEARCH RESULTS CONTAINER VALIDATED
+[32mINFO    [0m root:bus_search_page.py:43 POM LOG: APPLYING AC FILTER
+[32mINFO    [0m root:bus_search_page.py:51 POM LOG: AC FILTER DEPLOYED NATIVELY
+[32mINFO    [0m root:bus_search_page.py:58 POM LOG: OPENING SEAT MAP FOR TOP COM-ROW
+[32mINFO    [0m root:bus_search_page.py:66 POM LOG: SEAT OPTIONS POPULATED NATIVELY
+[32mINFO    [0m root:bus_search_page.py:73 POM LOG: SELECTING SEAT, BOARDING, AND DROPPING POINTS
+[32mINFO    [0m root:bus_search_page.py:76 POM LOG: SEARCHING FOR ANY AVAILABLE VACANT SEAT
+[32mINFO    [0m root:bus_search_page.py:94 POM LOG: VACANT SEAT AT INDEX 0 SUCCESSFULLY SELECTED
+[32mINFO    [0m root:bus_search_page.py:109 POM LOG: BOARDING POINT SELECTED NATIVELY
+[32mINFO    [0m root:bus_search_page.py:117 POM LOG: DROPPING POINT SELECTED NATIVELY
+[32mINFO    [0m root:bus_search_page.py:121 POM LOG: LOCATING ACTIVE CONTINUE ELEMENT
+[32mINFO    [0m root:bus_search_page.py:133 POM LOG: ACTIVE CONTINUE BUTTON EXECUTION SUCCESSFUL
+[32mINFO    [0m root:test_e2e_booking.py:208 ASSERTING BOOKING PAGE HEADER
+[32mINFO    [0m root:test_e2e_booking.py:227 HEADER FOUND : Complete your booking
+[32mINFO    [0m root:test_e2e_booking.py:235 BOOKING PAGE VERIFIED
+[32mINFO    [0m root:base_page.py:14 POM LOG: BasePage initialized
+[32mINFO    [0m root:seat_page.py:34 POM LOG: INITIALIZING TRAVELLER DETAILS FORM SECTIONS
+[32mINFO    [0m root:seat_page.py:44 POM LOG: TRAVELLER NAME COMMITTED -> Ayush Jaiswal
+[32mINFO    [0m root:seat_page.py:53 POM LOG: TRAVELLER AGE COMMITTED -> 24
+[32mINFO    [0m root:seat_page.py:66 POM LOG: GENDER MATCH SELECTION DEPLOYED -> male
+[32mINFO    [0m root:seat_page.py:74 POM LOG: INITIALIZING CONTACT DETAILS FORM SECTIONS
+[32mINFO    [0m root:seat_page.py:84 POM LOG: CONTACT EMAIL ADDRESS STRINGS ASSIGNED -> ayush@gmail.com
+[32mINFO    [0m root:seat_page.py:96 POM LOG: CONTACT MOBILE NUMBER STRINGS ASSIGNED -> 9696850136
+[32mINFO    [0m root:seat_page.py:104 POM LOG: DISPATCHING MANDATORY EXPLICIT CHECKBOX FORM LAYERS
+[32mINFO    [0m root:seat_page.py:113 POM LOG: BILLING SAVE COMPLIANCE PARSED SUCCESSFULLY
+[32mINFO    [0m root:seat_page.py:123 POM LOG: TRIPASSURED DISMISS SELECTION PARSED SUCCESSFULLY
+[32mINFO    [0m root:seat_page.py:135 POM LOG: REVEAL PAYMENT OPTIONS DISPATCH STEP COMPLETE
+[32mINFO    [0m root:test_e2e_booking.py:258 PASSENGER DETAILS SUBMITTED
+[32mINFO    [0m root:test_e2e_booking.py:263 OPENING PAYMENT PAGE
+[32mINFO    [0m root:test_e2e_booking.py:271 PAYMENT PAGE OPENED
+[32mINFO    [0m root:test_e2e_booking.py:281 PAYMENT PAGE VERIFIED
+[32mINFO    [0m root:base_page.py:14 POM LOG: BasePage initialized
+[32mINFO    [0m root:payment_page.py:31 POM LOG: LOCATING CREDIT/DEBIT CARD PAYMENT TAB
+[32mINFO    [0m root:payment_page.py:46 POM LOG: CREDIT/DEBIT CARD TAB SELECTED SUCCESSFULLY
+[32mINFO    [0m root:payment_page.py:54 POM LOG: INITIALIZING CARD DETAILS INJECTION
+[32mINFO    [0m root:payment_page.py:64 POM LOG: CARD NUMBER COMMITTED
+[32mINFO    [0m root:payment_page.py:84 POM LOG: EXPIRY MONTH COMMITTED -> 12
+[32mINFO    [0m root:payment_page.py:99 POM LOG: EXPIRY YEAR COMMITTED -> 28
+[32mINFO    [0m root:payment_page.py:107 POM LOG: CVV COMMITTED
+[32mINFO    [0m root:payment_page.py:115 POM LOG: CARD HOLDER NAME COMMITTED
+[32mINFO    [0m root:payment_page.py:120 POM LOG: ALL DUMMY PAYMENT DETAILS INJECTED SUCCESSFULLY. END OF E2E FLOW REACHED.
+[32mINFO    [0m root:test_e2e_booking.py:296 PAYMENT DETAILS ENTERED SUCCESSFULLY
+[32mINFO    [0m root:test_e2e_booking.py:303 E2E FLOW COMPLETED
+[32mINFO    [0m root:conftest.py:42 ========== CLOSING TEST ==========
+[32mINFO    [0m root:conftest.py:48 BROWSER CLOSED SUCCESSFULLY
