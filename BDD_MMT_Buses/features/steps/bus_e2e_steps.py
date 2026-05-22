@@ -1,5 +1,6 @@
 import allure
 import os
+import time
 from behave import given, when, then
 from locators.home_locators import HomeLocators
 
@@ -22,9 +23,15 @@ def step_impl(context):
 
 @given(u'User loads test data from Excel "{filename}"')
 def step_impl(context, filename):
-    # Construct absolute path to the testdata folder
     filepath = os.path.join(os.getcwd(), "testdata", filename)
     context.test_data = ExcelReader.get_test_data(filepath)
+
+    # ==========================================
+    # ASSERTION 1: Verify Excel Data Loaded
+    # ==========================================
+    assert context.test_data is not None, "Assertion Failed: Test data dictionary is None."
+    assert "from_city" in context.test_data, "Assertion Failed: Could not find 'from_city' in Excel headers."
+    logger.info("E2E ASSERTION PASSED: Excel Data Successfully Loaded")
 
 
 @when(u'User closes the login popup')
@@ -59,6 +66,13 @@ def step_impl(context):
     HomePage(context.driver).click_search()
     BusSearchPage(context.driver).verify_bus_search_result()
 
+    # ==========================================
+    # ASSERTION 2: Verify Search Page URL
+    # ==========================================
+    current_url = context.driver.current_url.lower()
+    assert "search" in current_url or "bus-tickets" in current_url, f"Assertion Failed: Not on Search Page. Current URL: {current_url}"
+    logger.info("E2E ASSERTION PASSED: Navigated to Search Results Page")
+
 
 @when(u'User applies the AC filter')
 def step_impl(context):
@@ -79,6 +93,16 @@ def step_impl(context):
 def step_impl(context):
     BusSearchPage(context.driver).select_seat_and_points_and_continue()
 
+    # Let the URL transition complete
+    time.sleep(3)
+
+    # ==========================================
+    # ASSERTION 3: Verify Review Page URL
+    # ==========================================
+    current_url = context.driver.current_url.lower()
+    assert "review" in current_url, f"Assertion Failed: Did not reach Review Page. Current URL: {current_url}"
+    logger.info("E2E ASSERTION PASSED: Navigated to Booking Review Page")
+
 
 @when(u'User enters passenger details from Excel')
 def step_impl(context):
@@ -88,7 +112,7 @@ def step_impl(context):
     age = context.test_data.get("age")
     mobile = context.test_data.get("mobile")
     email = context.test_data.get("email")
-    gender = "Male"  # Not in Excel, defaulting to Male
+    gender = "Male"
 
     seat_page.fill_passenger_details(name, age, gender)
     seat_page.fill_contact_details(mobile, email)
@@ -99,6 +123,13 @@ def step_impl(context):
 def step_impl(context):
     SeatPage(context.driver).select_required_options_and_continue()
 
+    # ==========================================
+    # ASSERTION 4: Verify Payment Page URL
+    # ==========================================
+    current_url = context.driver.current_url.lower()
+    assert "payment" in current_url or "checkout" in current_url, f"Assertion Failed: Did not reach Payment Gateway. Current URL: {current_url}"
+    logger.info("E2E ASSERTION PASSED: Navigated to Secure Payment Gateway")
+
 
 @when(u'User enters card details from Excel')
 def step_impl(context):
@@ -108,11 +139,9 @@ def step_impl(context):
     card_number = context.test_data.get("card_number")
     card_holder = context.test_data.get("card_holder")
     expiry = context.test_data.get("expiry")
-    cvv = "123"  # Not in Excel, defaulting to 123
+    cvv = "123"
 
-    # Format the expiry date properly in case Excel returns a serial number or datetime object
     if isinstance(expiry, int) or isinstance(expiry, float):
-        # If your excel value '46386' causes issues, format the column as plain Text in Excel (e.g., '12/28')
         expiry = str(expiry)
     elif hasattr(expiry, "strftime"):
         expiry = expiry.strftime("%m/%y")

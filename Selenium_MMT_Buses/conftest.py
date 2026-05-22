@@ -111,5 +111,9 @@ def pytest_unconfigure(config):
     )
 
     os.system(
-        "allure serve reports/allure-results"
+        "allure generate reports/allure-results -o reports/allure-report --clean"
+    )
+
+    os.system(
+        "allure open reports/allure-report"
     )

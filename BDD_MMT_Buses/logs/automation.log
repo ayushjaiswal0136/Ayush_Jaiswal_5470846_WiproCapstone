@@ -1,0 +1,596 @@
+2026-05-22 21:52:13,813 - INFO - ========================================
+2026-05-22 21:52:13,814 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-22 21:52:13,814 - INFO - Starting Behave Test Execution
+2026-05-22 21:52:15,548 - INFO - ========== STARTING SCENARIO: Successfully search, select, and proceed to payment for a bus ticket ==========
+2026-05-22 21:52:19,286 - INFO - Implicit wait fetched : 10
+2026-05-22 21:52:19,288 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/bus-tickets/
+2026-05-22 21:52:28,180 - INFO - CURRENT URL: https://www.makemytrip.com/bus-tickets/
+2026-05-22 21:52:28,181 - INFO - Application Launched via environment.py
+2026-05-22 21:52:28,181 - INFO - STEP PASSED: User launches MakeMyTrip application - CAPTURING SCREENSHOT
+2026-05-22 21:52:28,399 - INFO - Screenshot saved at: reports/screenshots/PASS_User_launches_MakeMy_20260522_215228.png
+2026-05-22 21:52:28,406 - INFO - Loading test data from: S:\Capstone Project\BDD_MMT_Buses\testdata\bus_e2e_data.xlsx
+2026-05-22 21:52:28,415 - INFO - Data successfully loaded: {'from_city': 'Delhi', 'to_city': 'Lucknow', 'passenger_name': 'Ayush', 'age': 23.0, 'mobile': 9876543210.0, 'email': 'ayush@test.com', 'card_number': '4111111111111111', 'card_holder': 'Ayush Jaiswal', 'expiry': datetime.datetime(2026, 12, 30, 0, 0), 'cvv': 123.0}
+2026-05-22 21:52:28,417 - INFO - E2E ASSERTION PASSED: Excel Data Successfully Loaded
+2026-05-22 21:52:28,417 - INFO - STEP PASSED: User loads test data from Excel "bus_e2e_data.xlsx" - CAPTURING SCREENSHOT
+2026-05-22 21:52:28,625 - INFO - Screenshot saved at: reports/screenshots/PASS_User_loads_test_data_20260522_215228.png
+2026-05-22 21:52:28,627 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:52:30,714 - INFO - LOGIN POPUP CLOSED
+2026-05-22 21:52:31,715 - INFO - STEP PASSED: User closes the login popup - CAPTURING SCREENSHOT
+2026-05-22 21:52:31,862 - INFO - Screenshot saved at: reports/screenshots/PASS_User_closes_the_logi_20260522_215231.png
+2026-05-22 21:52:31,865 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:52:41,874 - INFO - BUS TAB ISSUE: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff795c47de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff795c47e50+14900]
+	uc_driver!(No symbol) [0x7ff7959ad5ad]
+	uc_driver!(No symbol) [0x7ff795a07822]
+	uc_driver!(No symbol) [0x7ff795a07b2c]
+	uc_driver!(No symbol) [0x7ff795a57d17]
+	uc_driver!(No symbol) [0x7ff795a5486f]
+	uc_driver!(No symbol) [0x7ff7959f9df8]
+	uc_driver!(No symbol) [0x7ff7959face3]
+	uc_driver!GetHandleVerifier [0x7ff795f5cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff795f57375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff795f7bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff795c66045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff795c6ecec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff795c51bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff795c51d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff795c360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffd7462e957+17]
+	ntdll!RtlUserThreadStart [0x7ffd765a427c+2c]
+
+2026-05-22 21:52:41,874 - INFO - STEP PASSED: User navigates to the Bus section - CAPTURING SCREENSHOT
+2026-05-22 21:52:42,017 - INFO - Screenshot saved at: reports/screenshots/PASS_User_navigates_to_th_20260522_215241.png
+2026-05-22 21:52:42,019 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:52:42,075 - INFO - CLICKED FIELD: Delhi
+2026-05-22 21:52:47,900 - INFO - TYPED CITY: Delhi
+2026-05-22 21:52:50,981 - INFO - SELECTED CITY: Delhi
+2026-05-22 21:52:52,982 - INFO - STEP PASSED: User enters source city from Excel - CAPTURING SCREENSHOT
+2026-05-22 21:52:53,109 - INFO - Screenshot saved at: reports/screenshots/PASS_User_enters_source_c_20260522_215252.png
+2026-05-22 21:52:53,111 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:52:53,142 - INFO - CLICKED FIELD: Lucknow
+2026-05-22 21:52:59,584 - INFO - TYPED CITY: Lucknow
+2026-05-22 21:53:02,656 - INFO - SELECTED CITY: Lucknow
+2026-05-22 21:53:04,657 - INFO - STEP PASSED: User enters destination city from Excel - CAPTURING SCREENSHOT
+2026-05-22 21:53:04,810 - INFO - Screenshot saved at: reports/screenshots/PASS_User_enters_destinat_20260522_215304.png
+2026-05-22 21:53:04,813 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:53:05,924 - INFO - DATE BOX CLICKED
+2026-05-22 21:53:07,983 - INFO - DATE SELECTED
+2026-05-22 21:53:09,984 - INFO - STEP PASSED: User selects a travel date - CAPTURING SCREENSHOT
+2026-05-22 21:53:10,162 - INFO - Screenshot saved at: reports/screenshots/PASS_User_selects_a_trave_20260522_215309.png
+2026-05-22 21:53:10,164 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:53:10,164 - INFO - CLICKING SEARCH BUTTON
+2026-05-22 21:53:14,333 - INFO - SEARCH BUTTON CLICKED SUCCESSFULLY
+2026-05-22 21:53:24,333 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:53:24,334 - INFO - POM LOG: VERIFYING RESULTS PAGE
+2026-05-22 21:53:27,353 - INFO - POM LOG: SEARCH RESULTS CONTAINER VALIDATED
+2026-05-22 21:53:27,356 - INFO - E2E ASSERTION PASSED: Navigated to Search Results Page
+2026-05-22 21:53:27,356 - INFO - STEP PASSED: User clicks on Search Buses button - CAPTURING SCREENSHOT
+2026-05-22 21:53:27,472 - INFO - Screenshot saved at: reports/screenshots/PASS_User_clicks_on_Searc_20260522_215327.png
+2026-05-22 21:53:27,475 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:53:27,475 - INFO - POM LOG: APPLYING AC FILTER
+2026-05-22 21:53:29,013 - INFO - POM LOG: AC FILTER DEPLOYED VIA JS
+2026-05-22 21:53:33,014 - INFO - STEP PASSED: User applies the AC filter - CAPTURING SCREENSHOT
+2026-05-22 21:53:33,133 - INFO - Screenshot saved at: reports/screenshots/PASS_User_applies_the_AC__20260522_215333.png
+2026-05-22 21:53:33,135 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:53:33,135 - INFO - POM LOG: OPENING SEAT MAP FOR TOP COM-ROW
+2026-05-22 21:53:34,675 - INFO - POM LOG: SEAT OPTIONS POPULATED VIA JS
+2026-05-22 21:53:37,676 - INFO - STEP PASSED: User selects an available bus - CAPTURING SCREENSHOT
+2026-05-22 21:53:37,771 - INFO - Screenshot saved at: reports/screenshots/PASS_User_selects_an_avai_20260522_215337.png
+2026-05-22 21:53:37,773 - INFO - STEP PASSED: User selects a specific seat - CAPTURING SCREENSHOT
+2026-05-22 21:53:37,861 - INFO - Screenshot saved at: reports/screenshots/PASS_User_selects_a_speci_20260522_215337.png
+2026-05-22 21:53:37,863 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:53:37,863 - INFO - POM LOG: SELECTING SEAT, BOARDING, AND DROPPING POINTS
+2026-05-22 21:53:37,863 - INFO - POM LOG: SEARCHING FOR ANY AVAILABLE VACANT SEAT
+2026-05-22 21:53:39,930 - INFO - POM LOG: VACANT SEAT AT INDEX 0 SUCCESSFULLY SELECTED
+2026-05-22 21:53:40,965 - INFO - POM LOG: BOARDING POINT SELECTED VIA JS
+2026-05-22 21:53:43,499 - INFO - POM LOG: DROPPING POINT SELECTED VIA JS
+2026-05-22 21:53:45,499 - INFO - POM LOG: LOCATING ACTIVE CONTINUE ELEMENT
+2026-05-22 21:53:50,644 - INFO - POM LOG: NATIVE CONTINUE BUTTON EXECUTION SUCCESSFUL
+2026-05-22 21:53:58,649 - INFO - E2E ASSERTION PASSED: Navigated to Booking Review Page
+2026-05-22 21:53:58,650 - INFO - STEP PASSED: User verifies boarding and dropping points - CAPTURING SCREENSHOT
+2026-05-22 21:53:58,741 - INFO - Screenshot saved at: reports/screenshots/PASS_User_verifies_boardi_20260522_215358.png
+2026-05-22 21:53:58,743 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:53:58,743 - INFO - POM LOG: INITIALIZING TRAVELLER DETAILS FORM SECTIONS
+2026-05-22 21:53:59,852 - INFO - POM LOG: TRAVELLER NAME COMMITTED -> Ayush
+2026-05-22 21:54:00,033 - INFO - POM LOG: TRAVELLER AGE COMMITTED -> 23
+2026-05-22 21:54:01,070 - INFO - POM LOG: GENDER MATCH SELECTION DEPLOYED -> male
+2026-05-22 21:54:02,571 - INFO - POM LOG: INITIALIZING CONTACT DETAILS FORM SECTIONS
+2026-05-22 21:54:03,713 - INFO - POM LOG: CONTACT EMAIL ADDRESS STRINGS ASSIGNED -> ayush@test.com
+2026-05-22 21:54:05,826 - INFO - POM LOG: CONTACT MOBILE NUMBER STRINGS ASSIGNED -> 9876543210
+2026-05-22 21:54:07,401 - INFO - Screenshot saved at: reports/screenshots/passenger_details_20260522_215407.png
+2026-05-22 21:54:07,401 - INFO - STEP PASSED: User enters passenger details from Excel - CAPTURING SCREENSHOT
+2026-05-22 21:54:07,480 - INFO - Screenshot saved at: reports/screenshots/PASS_User_enters_passenge_20260522_215407.png
+2026-05-22 21:54:07,482 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:54:07,482 - INFO - POM LOG: DISPATCHING MANDATORY/OPTIONAL CHECKBOX FORM LAYERS
+2026-05-22 21:54:07,482 - INFO - POM LOG: STATE DROPDOWN SKIPPED OR ALREADY FILLED.
+2026-05-22 21:54:07,482 - INFO - POM LOG: Trying JS brute-force for Billing Checkbox...
+2026-05-22 21:54:08,500 - INFO - POM LOG: Trying JS brute-force for TripAssured...
+2026-05-22 21:54:11,593 - INFO - POM LOG: REVEAL PAYMENT OPTIONS DISPATCH STEP COMPLETE
+2026-05-22 21:54:20,055 - INFO - E2E ASSERTION PASSED: Navigated to Secure Payment Gateway
+2026-05-22 21:54:20,055 - INFO - STEP PASSED: User proceeds to payment page - CAPTURING SCREENSHOT
+2026-05-22 21:54:20,152 - INFO - Screenshot saved at: reports/screenshots/PASS_User_proceeds_to_pay_20260522_215420.png
+2026-05-22 21:54:20,154 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:54:20,154 - INFO - POM LOG: LOCATING CREDIT/DEBIT CARD PAYMENT TAB
+2026-05-22 21:54:26,202 - INFO - POM LOG: CREDIT/DEBIT CARD TAB SELECTED SUCCESSFULLY
+2026-05-22 21:54:28,203 - INFO - POM LOG: INITIALIZING CARD DETAILS INJECTION
+2026-05-22 21:54:28,322 - INFO - POM LOG: CARD NUMBER COMMITTED
+2026-05-22 21:54:29,401 - INFO - POM LOG: EXPIRY MONTH COMMITTED -> 12
+2026-05-22 21:54:29,973 - INFO - POM LOG: EXPIRY YEAR COMMITTED -> 26
+2026-05-22 21:54:30,547 - INFO - POM LOG: CVV COMMITTED
+2026-05-22 21:54:31,145 - INFO - POM LOG: CARD HOLDER NAME COMMITTED
+2026-05-22 21:54:32,146 - INFO - POM LOG: ALL DUMMY PAYMENT DETAILS INJECTED SUCCESSFULLY. END OF E2E FLOW REACHED.
+2026-05-22 21:54:35,228 - INFO - Screenshot saved at: reports/screenshots/card_entered_20260522_215435.png
+2026-05-22 21:54:35,228 - INFO - STEP PASSED: User enters card details from Excel - CAPTURING SCREENSHOT
+2026-05-22 21:54:35,307 - INFO - Screenshot saved at: reports/screenshots/PASS_User_enters_card_det_20260522_215435.png
+2026-05-22 21:54:35,309 - INFO - End of E2E Flow. Browser will close via environment.py
+2026-05-22 21:54:35,309 - INFO - STEP PASSED: Close the browser - CAPTURING SCREENSHOT
+2026-05-22 21:54:35,392 - INFO - Screenshot saved at: reports/screenshots/PASS_Close_the_browser_20260522_215435.png
+2026-05-22 21:54:35,394 - INFO - ========== CLOSING SCENARIO: Successfully search, select, and proceed to payment for a bus ticket ==========
+2026-05-22 21:54:37,900 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 21:54:37,903 - INFO - ========== STARTING SCENARIO: Verify that searched route information displayed correctly ==========
+2026-05-22 21:54:41,367 - INFO - Implicit wait fetched : 10
+2026-05-22 21:54:41,368 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/bus-tickets/
+2026-05-22 21:54:52,709 - INFO - CURRENT URL: https://www.makemytrip.com/bus-tickets/
+2026-05-22 21:54:52,710 - INFO - Application Launched via environment.py
+2026-05-22 21:54:52,710 - INFO - STEP PASSED: User launches MakeMyTrip application - CAPTURING SCREENSHOT
+2026-05-22 21:54:52,938 - INFO - Screenshot saved at: reports/screenshots/PASS_User_launches_MakeMy_20260522_215452.png
+2026-05-22 21:54:52,940 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:54:54,994 - INFO - LOGIN POPUP CLOSED
+2026-05-22 21:54:55,994 - INFO - STEP PASSED: User closes the login popup - CAPTURING SCREENSHOT
+2026-05-22 21:54:56,126 - INFO - Screenshot saved at: reports/screenshots/PASS_User_closes_the_logi_20260522_215455.png
+2026-05-22 21:54:56,128 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:55:06,179 - INFO - BUS TAB ISSUE: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff795c47de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff795c47e50+14900]
+	uc_driver!(No symbol) [0x7ff7959ad5ad]
+	uc_driver!(No symbol) [0x7ff795a07822]
+	uc_driver!(No symbol) [0x7ff795a07b2c]
+	uc_driver!(No symbol) [0x7ff795a57d17]
+	uc_driver!(No symbol) [0x7ff795a5486f]
+	uc_driver!(No symbol) [0x7ff7959f9df8]
+	uc_driver!(No symbol) [0x7ff7959face3]
+	uc_driver!GetHandleVerifier [0x7ff795f5cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff795f57375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff795f7bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff795c66045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff795c6ecec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff795c51bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff795c51d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff795c360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffd7462e957+17]
+	ntdll!RtlUserThreadStart [0x7ffd765a427c+2c]
+
+2026-05-22 21:55:06,179 - INFO - STEP PASSED: User navigates to the Bus section - CAPTURING SCREENSHOT
+2026-05-22 21:55:06,327 - INFO - Screenshot saved at: reports/screenshots/PASS_User_navigates_to_th_20260522_215506.png
+2026-05-22 21:55:06,330 - INFO - Loading test data from CSV: S:\Capstone Project\BDD_MMT_Buses\testdata\bus_search_data.csv for row 1
+2026-05-22 21:55:06,331 - INFO - CSV Data successfully loaded: {'from_city': 'Lucknow', 'to_city': 'Delhi'}
+2026-05-22 21:55:06,332 - INFO - STEP PASSED: User extracts test data from CSV "bus_search_data.csv" for row "1" - CAPTURING SCREENSHOT
+2026-05-22 21:55:06,480 - INFO - Screenshot saved at: reports/screenshots/PASS_User_extracts_test_d_20260522_215506.png
+2026-05-22 21:55:06,483 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:55:06,537 - INFO - CLICKED FIELD: Lucknow
+2026-05-22 21:55:13,057 - INFO - TYPED CITY: Lucknow
+2026-05-22 21:55:16,152 - INFO - SELECTED CITY: Lucknow
+2026-05-22 21:55:18,153 - INFO - STEP PASSED: User provides search source city from CSV - CAPTURING SCREENSHOT
+2026-05-22 21:55:18,346 - INFO - Screenshot saved at: reports/screenshots/PASS_User_provides_search_20260522_215518.png
+2026-05-22 21:55:18,349 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:55:18,381 - INFO - CLICKED FIELD: Delhi
+2026-05-22 21:55:24,143 - INFO - TYPED CITY: Delhi
+2026-05-22 21:55:27,216 - INFO - SELECTED CITY: Delhi
+2026-05-22 21:55:29,216 - INFO - STEP PASSED: User provides search destination city from CSV - CAPTURING SCREENSHOT
+2026-05-22 21:55:29,354 - INFO - Screenshot saved at: reports/screenshots/PASS_User_provides_search_20260522_215529.png
+2026-05-22 21:55:29,357 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:55:30,440 - INFO - DATE BOX CLICKED
+2026-05-22 21:55:32,500 - INFO - DATE SELECTED
+2026-05-22 21:55:34,501 - INFO - STEP PASSED: User selects a travel date - CAPTURING SCREENSHOT
+2026-05-22 21:55:34,641 - INFO - Screenshot saved at: reports/screenshots/PASS_User_selects_a_trave_20260522_215534.png
+2026-05-22 21:55:34,643 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:55:34,643 - INFO - CLICKING SEARCH BUTTON
+2026-05-22 21:55:39,337 - INFO - SEARCH BUTTON CLICKED SUCCESSFULLY
+2026-05-22 21:55:49,338 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:55:49,338 - INFO - POM LOG: VERIFYING RESULTS PAGE
+2026-05-22 21:55:52,356 - INFO - POM LOG: SEARCH RESULTS CONTAINER VALIDATED
+2026-05-22 21:55:52,359 - INFO - E2E ASSERTION PASSED: Navigated to Search Results Page
+2026-05-22 21:55:52,359 - INFO - STEP PASSED: User clicks on Search Buses button - CAPTURING SCREENSHOT
+2026-05-22 21:55:52,468 - INFO - Screenshot saved at: reports/screenshots/PASS_User_clicks_on_Searc_20260522_215552.png
+2026-05-22 21:55:52,470 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:55:52,617 - INFO - Screenshot saved at: reports/screenshots/route_verified_20260522_215552.png
+2026-05-22 21:55:52,617 - INFO - STEP PASSED: User should see the correct route from CSV on results page - CAPTURING SCREENSHOT
+2026-05-22 21:55:52,741 - INFO - Screenshot saved at: reports/screenshots/PASS_User_should_see_the__20260522_215552.png
+2026-05-22 21:55:52,743 - INFO - ========== CLOSING SCENARIO: Verify that searched route information displayed correctly ==========
+2026-05-22 21:55:55,134 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 21:55:55,136 - INFO - ========== STARTING SCENARIO: Assert whether sleeper filter is applied successfully ==========
+2026-05-22 21:55:58,638 - INFO - Implicit wait fetched : 10
+2026-05-22 21:55:58,639 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/bus-tickets/
+2026-05-22 21:56:07,509 - INFO - CURRENT URL: https://www.makemytrip.com/bus-tickets/
+2026-05-22 21:56:07,510 - INFO - Application Launched via environment.py
+2026-05-22 21:56:07,510 - INFO - STEP PASSED: User launches MakeMyTrip application - CAPTURING SCREENSHOT
+2026-05-22 21:56:07,756 - INFO - Screenshot saved at: reports/screenshots/PASS_User_launches_MakeMy_20260522_215607.png
+2026-05-22 21:56:07,758 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:56:09,828 - INFO - LOGIN POPUP CLOSED
+2026-05-22 21:56:10,828 - INFO - STEP PASSED: User closes the login popup - CAPTURING SCREENSHOT
+2026-05-22 21:56:10,976 - INFO - Screenshot saved at: reports/screenshots/PASS_User_closes_the_logi_20260522_215610.png
+2026-05-22 21:56:10,979 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:56:21,007 - INFO - BUS TAB ISSUE: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff795c47de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff795c47e50+14900]
+	uc_driver!(No symbol) [0x7ff7959ad5ad]
+	uc_driver!(No symbol) [0x7ff795a07822]
+	uc_driver!(No symbol) [0x7ff795a07b2c]
+	uc_driver!(No symbol) [0x7ff795a57d17]
+	uc_driver!(No symbol) [0x7ff795a5486f]
+	uc_driver!(No symbol) [0x7ff7959f9df8]
+	uc_driver!(No symbol) [0x7ff7959face3]
+	uc_driver!GetHandleVerifier [0x7ff795f5cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff795f57375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff795f7bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff795c66045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff795c6ecec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff795c51bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff795c51d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff795c360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffd7462e957+17]
+	ntdll!RtlUserThreadStart [0x7ffd765a427c+2c]
+
+2026-05-22 21:56:21,007 - INFO - STEP PASSED: User navigates to the Bus section - CAPTURING SCREENSHOT
+2026-05-22 21:56:21,156 - INFO - Screenshot saved at: reports/screenshots/PASS_User_navigates_to_th_20260522_215621.png
+2026-05-22 21:56:21,159 - INFO - Loading test data from CSV: S:\Capstone Project\BDD_MMT_Buses\testdata\bus_search_data.csv for row 1
+2026-05-22 21:56:21,159 - INFO - CSV Data successfully loaded: {'from_city': 'Lucknow', 'to_city': 'Delhi'}
+2026-05-22 21:56:21,159 - INFO - STEP PASSED: User extracts test data from CSV "bus_search_data.csv" for row "1" - CAPTURING SCREENSHOT
+2026-05-22 21:56:21,312 - INFO - Screenshot saved at: reports/screenshots/PASS_User_extracts_test_d_20260522_215621.png
+2026-05-22 21:56:21,314 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:56:21,365 - INFO - CLICKED FIELD: Lucknow
+2026-05-22 21:56:27,836 - INFO - TYPED CITY: Lucknow
+2026-05-22 21:56:30,920 - INFO - SELECTED CITY: Lucknow
+2026-05-22 21:56:32,921 - INFO - STEP PASSED: User provides search source city from CSV - CAPTURING SCREENSHOT
+2026-05-22 21:56:33,049 - INFO - Screenshot saved at: reports/screenshots/PASS_User_provides_search_20260522_215632.png
+2026-05-22 21:56:33,051 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:56:33,084 - INFO - CLICKED FIELD: Delhi
+2026-05-22 21:56:38,851 - INFO - TYPED CITY: Delhi
+2026-05-22 21:56:41,915 - INFO - SELECTED CITY: Delhi
+2026-05-22 21:56:43,916 - INFO - STEP PASSED: User provides search destination city from CSV - CAPTURING SCREENSHOT
+2026-05-22 21:56:44,040 - INFO - Screenshot saved at: reports/screenshots/PASS_User_provides_search_20260522_215643.png
+2026-05-22 21:56:44,042 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:56:45,133 - INFO - DATE BOX CLICKED
+2026-05-22 21:56:47,189 - INFO - DATE SELECTED
+2026-05-22 21:56:49,190 - INFO - STEP PASSED: User selects a travel date - CAPTURING SCREENSHOT
+2026-05-22 21:56:49,338 - INFO - Screenshot saved at: reports/screenshots/PASS_User_selects_a_trave_20260522_215649.png
+2026-05-22 21:56:49,341 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:56:49,341 - INFO - CLICKING SEARCH BUTTON
+2026-05-22 21:56:52,959 - INFO - SEARCH BUTTON CLICKED SUCCESSFULLY
+2026-05-22 21:57:02,960 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:57:02,960 - INFO - POM LOG: VERIFYING RESULTS PAGE
+2026-05-22 21:57:05,979 - INFO - POM LOG: SEARCH RESULTS CONTAINER VALIDATED
+2026-05-22 21:57:05,982 - INFO - E2E ASSERTION PASSED: Navigated to Search Results Page
+2026-05-22 21:57:05,982 - INFO - STEP PASSED: User clicks on Search Buses button - CAPTURING SCREENSHOT
+2026-05-22 21:57:06,090 - INFO - Screenshot saved at: reports/screenshots/PASS_User_clicks_on_Searc_20260522_215705.png
+2026-05-22 21:57:06,092 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:57:06,092 - INFO - POM LOG: APPLYING SLEEPER FILTER
+2026-05-22 21:57:07,634 - INFO - POM LOG: SLEEPER FILTER DEPLOYED VIA JS
+2026-05-22 21:57:10,635 - INFO - STEP PASSED: User applies the Sleeper filter - CAPTURING SCREENSHOT
+2026-05-22 21:57:10,751 - INFO - Screenshot saved at: reports/screenshots/PASS_User_applies_the_Sle_20260522_215710.png
+2026-05-22 21:57:10,753 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:57:10,881 - INFO - Screenshot saved at: reports/screenshots/sleeper_filter_applied_20260522_215710.png
+2026-05-22 21:57:10,881 - INFO - STEP PASSED: Verify that the results update successfully - CAPTURING SCREENSHOT
+2026-05-22 21:57:10,983 - INFO - Screenshot saved at: reports/screenshots/PASS_Verify_that_the_resu_20260522_215710.png
+2026-05-22 21:57:10,984 - INFO - ========== CLOSING SCENARIO: Assert whether sleeper filter is applied successfully ==========
+2026-05-22 21:57:13,348 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 21:57:13,349 - INFO - ========== STARTING SCENARIO: Assert seat number selection ==========
+2026-05-22 21:57:20,784 - INFO - Implicit wait fetched : 10
+2026-05-22 21:57:20,785 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/bus-tickets/
+2026-05-22 21:57:29,849 - INFO - CURRENT URL: https://www.makemytrip.com/bus-tickets/
+2026-05-22 21:57:29,850 - INFO - Application Launched via environment.py
+2026-05-22 21:57:29,850 - INFO - STEP PASSED: User launches MakeMyTrip application - CAPTURING SCREENSHOT
+2026-05-22 21:57:30,075 - INFO - Screenshot saved at: reports/screenshots/PASS_User_launches_MakeMy_20260522_215729.png
+2026-05-22 21:57:30,078 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:57:32,145 - INFO - LOGIN POPUP CLOSED
+2026-05-22 21:57:33,147 - INFO - STEP PASSED: User closes the login popup - CAPTURING SCREENSHOT
+2026-05-22 21:57:33,289 - INFO - Screenshot saved at: reports/screenshots/PASS_User_closes_the_logi_20260522_215733.png
+2026-05-22 21:57:33,292 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:57:43,346 - INFO - BUS TAB ISSUE: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff795c47de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff795c47e50+14900]
+	uc_driver!(No symbol) [0x7ff7959ad5ad]
+	uc_driver!(No symbol) [0x7ff795a07822]
+	uc_driver!(No symbol) [0x7ff795a07b2c]
+	uc_driver!(No symbol) [0x7ff795a57d17]
+	uc_driver!(No symbol) [0x7ff795a5486f]
+	uc_driver!(No symbol) [0x7ff7959f9df8]
+	uc_driver!(No symbol) [0x7ff7959face3]
+	uc_driver!GetHandleVerifier [0x7ff795f5cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff795f57375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff795f7bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff795c66045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff795c6ecec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff795c51bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff795c51d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff795c360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffd7462e957+17]
+	ntdll!RtlUserThreadStart [0x7ffd765a427c+2c]
+
+2026-05-22 21:57:43,346 - INFO - STEP PASSED: User navigates to the Bus section - CAPTURING SCREENSHOT
+2026-05-22 21:57:43,495 - INFO - Screenshot saved at: reports/screenshots/PASS_User_navigates_to_th_20260522_215743.png
+2026-05-22 21:57:43,497 - INFO - Loading test data from CSV: S:\Capstone Project\BDD_MMT_Buses\testdata\bus_search_data.csv for row 1
+2026-05-22 21:57:43,497 - INFO - CSV Data successfully loaded: {'from_city': 'Lucknow', 'to_city': 'Delhi'}
+2026-05-22 21:57:43,498 - INFO - STEP PASSED: User extracts test data from CSV "bus_search_data.csv" for row "1" - CAPTURING SCREENSHOT
+2026-05-22 21:57:43,649 - INFO - Screenshot saved at: reports/screenshots/PASS_User_extracts_test_d_20260522_215743.png
+2026-05-22 21:57:43,651 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:57:43,701 - INFO - CLICKED FIELD: Lucknow
+2026-05-22 21:57:50,151 - INFO - TYPED CITY: Lucknow
+2026-05-22 21:57:53,237 - INFO - SELECTED CITY: Lucknow
+2026-05-22 21:57:55,237 - INFO - STEP PASSED: User provides search source city from CSV - CAPTURING SCREENSHOT
+2026-05-22 21:57:55,377 - INFO - Screenshot saved at: reports/screenshots/PASS_User_provides_search_20260522_215755.png
+2026-05-22 21:57:55,379 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:57:55,410 - INFO - CLICKED FIELD: Delhi
+2026-05-22 21:58:01,159 - INFO - TYPED CITY: Delhi
+2026-05-22 21:58:04,223 - INFO - SELECTED CITY: Delhi
+2026-05-22 21:58:06,224 - INFO - STEP PASSED: User provides search destination city from CSV - CAPTURING SCREENSHOT
+2026-05-22 21:58:06,347 - INFO - Screenshot saved at: reports/screenshots/PASS_User_provides_search_20260522_215806.png
+2026-05-22 21:58:06,349 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:58:07,434 - INFO - DATE BOX CLICKED
+2026-05-22 21:58:09,489 - INFO - DATE SELECTED
+2026-05-22 21:58:11,490 - INFO - STEP PASSED: User selects a travel date - CAPTURING SCREENSHOT
+2026-05-22 21:58:11,641 - INFO - Screenshot saved at: reports/screenshots/PASS_User_selects_a_trave_20260522_215811.png
+2026-05-22 21:58:11,644 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:58:11,644 - INFO - CLICKING SEARCH BUTTON
+2026-05-22 21:58:15,383 - INFO - SEARCH BUTTON CLICKED SUCCESSFULLY
+2026-05-22 21:58:25,384 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:58:25,384 - INFO - POM LOG: VERIFYING RESULTS PAGE
+2026-05-22 21:58:28,402 - INFO - POM LOG: SEARCH RESULTS CONTAINER VALIDATED
+2026-05-22 21:58:28,405 - INFO - E2E ASSERTION PASSED: Navigated to Search Results Page
+2026-05-22 21:58:28,405 - INFO - STEP PASSED: User clicks on Search Buses button - CAPTURING SCREENSHOT
+2026-05-22 21:58:28,522 - INFO - Screenshot saved at: reports/screenshots/PASS_User_clicks_on_Searc_20260522_215828.png
+2026-05-22 21:58:28,524 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:58:28,525 - INFO - POM LOG: OPENING SEAT MAP FOR TOP COM-ROW
+2026-05-22 21:58:30,058 - INFO - POM LOG: SEAT OPTIONS POPULATED VIA JS
+2026-05-22 21:58:33,059 - INFO - STEP PASSED: User selects an available bus - CAPTURING SCREENSHOT
+2026-05-22 21:58:33,161 - INFO - Screenshot saved at: reports/screenshots/PASS_User_selects_an_avai_20260522_215833.png
+2026-05-22 21:58:33,163 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:58:33,164 - INFO - POM LOG: SELECTING SEAT, BOARDING, AND DROPPING POINTS
+2026-05-22 21:58:33,164 - INFO - POM LOG: SEARCHING FOR ANY AVAILABLE VACANT SEAT
+2026-05-22 21:58:35,233 - INFO - POM LOG: VACANT SEAT AT INDEX 0 SUCCESSFULLY SELECTED
+2026-05-22 21:58:36,268 - INFO - POM LOG: BOARDING POINT SELECTED VIA JS
+2026-05-22 21:58:38,809 - INFO - POM LOG: DROPPING POINT SELECTED VIA JS
+2026-05-22 21:58:40,810 - INFO - POM LOG: LOCATING ACTIVE CONTINUE ELEMENT
+2026-05-22 21:58:47,186 - INFO - POM LOG: NATIVE CONTINUE BUTTON EXECUTION SUCCESSFUL
+2026-05-22 21:58:52,186 - INFO - STEP PASSED: User selects a specific seat to verify - CAPTURING SCREENSHOT
+2026-05-22 21:58:52,270 - INFO - Screenshot saved at: reports/screenshots/PASS_User_selects_a_speci_20260522_215852.png
+2026-05-22 21:58:52,272 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:58:52,379 - INFO - Screenshot saved at: reports/screenshots/seat_selected_20260522_215852.png
+2026-05-22 21:58:52,379 - INFO - STEP PASSED: Verify that a selected seat number is displayed - CAPTURING SCREENSHOT
+2026-05-22 21:58:52,463 - INFO - Screenshot saved at: reports/screenshots/PASS_Verify_that_a_select_20260522_215852.png
+2026-05-22 21:58:52,464 - INFO - ========== CLOSING SCENARIO: Assert seat number selection ==========
+2026-05-22 21:58:54,860 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 21:58:54,862 - INFO - ========== STARTING SCENARIO: Assert Booking Page details are correct ==========
+2026-05-22 21:58:58,199 - INFO - Implicit wait fetched : 10
+2026-05-22 21:58:58,200 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/bus-tickets/
+2026-05-22 21:59:07,321 - INFO - CURRENT URL: https://www.makemytrip.com/bus-tickets/
+2026-05-22 21:59:07,322 - INFO - Application Launched via environment.py
+2026-05-22 21:59:07,322 - INFO - STEP PASSED: User launches MakeMyTrip application - CAPTURING SCREENSHOT
+2026-05-22 21:59:07,541 - INFO - Screenshot saved at: reports/screenshots/PASS_User_launches_MakeMy_20260522_215907.png
+2026-05-22 21:59:07,543 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:59:09,608 - INFO - LOGIN POPUP CLOSED
+2026-05-22 21:59:10,609 - INFO - STEP PASSED: User closes the login popup - CAPTURING SCREENSHOT
+2026-05-22 21:59:10,768 - INFO - Screenshot saved at: reports/screenshots/PASS_User_closes_the_logi_20260522_215910.png
+2026-05-22 21:59:10,770 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:59:20,776 - INFO - BUS TAB ISSUE: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff795c47de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff795c47e50+14900]
+	uc_driver!(No symbol) [0x7ff7959ad5ad]
+	uc_driver!(No symbol) [0x7ff795a07822]
+	uc_driver!(No symbol) [0x7ff795a07b2c]
+	uc_driver!(No symbol) [0x7ff795a57d17]
+	uc_driver!(No symbol) [0x7ff795a5486f]
+	uc_driver!(No symbol) [0x7ff7959f9df8]
+	uc_driver!(No symbol) [0x7ff7959face3]
+	uc_driver!GetHandleVerifier [0x7ff795f5cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff795f57375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff795f7bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff795c66045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff795c6ecec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff795c51bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff795c51d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff795c360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffd7462e957+17]
+	ntdll!RtlUserThreadStart [0x7ffd765a427c+2c]
+
+2026-05-22 21:59:20,776 - INFO - STEP PASSED: User navigates to the Bus section - CAPTURING SCREENSHOT
+2026-05-22 21:59:20,914 - INFO - Screenshot saved at: reports/screenshots/PASS_User_navigates_to_th_20260522_215920.png
+2026-05-22 21:59:20,916 - INFO - Loading test data from CSV: S:\Capstone Project\BDD_MMT_Buses\testdata\bus_search_data.csv for row 1
+2026-05-22 21:59:20,917 - INFO - CSV Data successfully loaded: {'from_city': 'Lucknow', 'to_city': 'Delhi'}
+2026-05-22 21:59:20,917 - INFO - STEP PASSED: User extracts test data from CSV "bus_search_data.csv" for row "1" - CAPTURING SCREENSHOT
+2026-05-22 21:59:21,056 - INFO - Screenshot saved at: reports/screenshots/PASS_User_extracts_test_d_20260522_215920.png
+2026-05-22 21:59:21,058 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:59:21,109 - INFO - CLICKED FIELD: Lucknow
+2026-05-22 21:59:27,559 - INFO - TYPED CITY: Lucknow
+2026-05-22 21:59:30,642 - INFO - SELECTED CITY: Lucknow
+2026-05-22 21:59:32,643 - INFO - STEP PASSED: User provides search source city from CSV - CAPTURING SCREENSHOT
+2026-05-22 21:59:32,802 - INFO - Screenshot saved at: reports/screenshots/PASS_User_provides_search_20260522_215932.png
+2026-05-22 21:59:32,804 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:59:32,834 - INFO - CLICKED FIELD: Delhi
+2026-05-22 21:59:38,608 - INFO - TYPED CITY: Delhi
+2026-05-22 21:59:41,667 - INFO - SELECTED CITY: Delhi
+2026-05-22 21:59:43,668 - INFO - STEP PASSED: User provides search destination city from CSV - CAPTURING SCREENSHOT
+2026-05-22 21:59:43,811 - INFO - Screenshot saved at: reports/screenshots/PASS_User_provides_search_20260522_215943.png
+2026-05-22 21:59:43,813 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:59:44,911 - INFO - DATE BOX CLICKED
+2026-05-22 21:59:46,968 - INFO - DATE SELECTED
+2026-05-22 21:59:48,970 - INFO - STEP PASSED: User selects a travel date - CAPTURING SCREENSHOT
+2026-05-22 21:59:49,117 - INFO - Screenshot saved at: reports/screenshots/PASS_User_selects_a_trave_20260522_215948.png
+2026-05-22 21:59:49,119 - INFO - POM LOG: BasePage initialized
+2026-05-22 21:59:49,119 - INFO - CLICKING SEARCH BUTTON
+2026-05-22 21:59:53,175 - INFO - SEARCH BUTTON CLICKED SUCCESSFULLY
+2026-05-22 22:00:03,175 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:00:03,176 - INFO - POM LOG: VERIFYING RESULTS PAGE
+2026-05-22 22:00:06,195 - INFO - POM LOG: SEARCH RESULTS CONTAINER VALIDATED
+2026-05-22 22:00:06,198 - INFO - E2E ASSERTION PASSED: Navigated to Search Results Page
+2026-05-22 22:00:06,198 - INFO - STEP PASSED: User clicks on Search Buses button - CAPTURING SCREENSHOT
+2026-05-22 22:00:06,316 - INFO - Screenshot saved at: reports/screenshots/PASS_User_clicks_on_Searc_20260522_220006.png
+2026-05-22 22:00:06,318 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:00:06,318 - INFO - POM LOG: OPENING SEAT MAP FOR TOP COM-ROW
+2026-05-22 22:00:07,851 - INFO - POM LOG: SEAT OPTIONS POPULATED VIA JS
+2026-05-22 22:00:10,852 - INFO - STEP PASSED: User selects an available bus - CAPTURING SCREENSHOT
+2026-05-22 22:00:10,948 - INFO - Screenshot saved at: reports/screenshots/PASS_User_selects_an_avai_20260522_220010.png
+2026-05-22 22:00:10,951 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:00:10,951 - INFO - POM LOG: SELECTING SEAT, BOARDING, AND DROPPING POINTS
+2026-05-22 22:00:10,951 - INFO - POM LOG: SEARCHING FOR ANY AVAILABLE VACANT SEAT
+2026-05-22 22:00:13,015 - INFO - POM LOG: VACANT SEAT AT INDEX 0 SUCCESSFULLY SELECTED
+2026-05-22 22:00:14,053 - INFO - POM LOG: BOARDING POINT SELECTED VIA JS
+2026-05-22 22:00:16,596 - INFO - POM LOG: DROPPING POINT SELECTED VIA JS
+2026-05-22 22:00:18,597 - INFO - POM LOG: LOCATING ACTIVE CONTINUE ELEMENT
+2026-05-22 22:00:24,342 - INFO - POM LOG: NATIVE CONTINUE BUTTON EXECUTION SUCCESSFUL
+2026-05-22 22:00:29,342 - INFO - STEP PASSED: User selects a specific seat to verify - CAPTURING SCREENSHOT
+2026-05-22 22:00:29,432 - INFO - Screenshot saved at: reports/screenshots/PASS_User_selects_a_speci_20260522_220029.png
+2026-05-22 22:00:29,434 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:00:29,590 - INFO - Screenshot saved at: reports/screenshots/booking_page_verified_20260522_220029.png
+2026-05-22 22:00:29,591 - INFO - STEP PASSED: User should see the booking page with correct route details from CSV - CAPTURING SCREENSHOT
+2026-05-22 22:00:29,677 - INFO - Screenshot saved at: reports/screenshots/PASS_User_should_see_the__20260522_220029.png
+2026-05-22 22:00:29,679 - INFO - ========== CLOSING SCENARIO: Assert Booking Page details are correct ==========
+2026-05-22 22:00:32,072 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 22:00:32,074 - INFO - ========== STARTING SCENARIO: Verify that buses are not displayed for same source and destination ==========
+2026-05-22 22:00:39,486 - INFO - Implicit wait fetched : 10
+2026-05-22 22:00:39,488 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/bus-tickets/
+2026-05-22 22:00:48,398 - INFO - CURRENT URL: https://www.makemytrip.com/bus-tickets/
+2026-05-22 22:00:48,399 - INFO - Application Launched via environment.py
+2026-05-22 22:00:48,399 - INFO - STEP PASSED: User launches MakeMyTrip application - CAPTURING SCREENSHOT
+2026-05-22 22:00:48,611 - INFO - Screenshot saved at: reports/screenshots/PASS_User_launches_MakeMy_20260522_220048.png
+2026-05-22 22:00:48,614 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:00:50,683 - INFO - LOGIN POPUP CLOSED
+2026-05-22 22:00:51,684 - INFO - STEP PASSED: User closes the login popup - CAPTURING SCREENSHOT
+2026-05-22 22:00:51,833 - INFO - Screenshot saved at: reports/screenshots/PASS_User_closes_the_logi_20260522_220051.png
+2026-05-22 22:00:51,835 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:01:01,843 - INFO - BUS TAB ISSUE: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff795c47de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff795c47e50+14900]
+	uc_driver!(No symbol) [0x7ff7959ad5ad]
+	uc_driver!(No symbol) [0x7ff795a07822]
+	uc_driver!(No symbol) [0x7ff795a07b2c]
+	uc_driver!(No symbol) [0x7ff795a57d17]
+	uc_driver!(No symbol) [0x7ff795a5486f]
+	uc_driver!(No symbol) [0x7ff7959f9df8]
+	uc_driver!(No symbol) [0x7ff7959face3]
+	uc_driver!GetHandleVerifier [0x7ff795f5cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff795f57375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff795f7bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff795c66045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff795c6ecec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff795c51bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff795c51d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff795c360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffd7462e957+17]
+	ntdll!RtlUserThreadStart [0x7ffd765a427c+2c]
+
+2026-05-22 22:01:01,844 - INFO - STEP PASSED: User navigates to the Bus section - CAPTURING SCREENSHOT
+2026-05-22 22:01:01,985 - INFO - Screenshot saved at: reports/screenshots/PASS_User_navigates_to_th_20260522_220101.png
+2026-05-22 22:01:01,989 - INFO - Loading test data from CSV: S:\Capstone Project\BDD_MMT_Buses\testdata\negative_bus_search_data.csv for row 1
+2026-05-22 22:01:01,989 - INFO - CSV Data successfully loaded: {'from_city': 'Raebareli', 'to_city': 'Raebareli'}
+2026-05-22 22:01:01,989 - INFO - STEP PASSED: User extracts test data from CSV "negative_bus_search_data.csv" for row "1" - CAPTURING SCREENSHOT
+2026-05-22 22:01:02,138 - INFO - Screenshot saved at: reports/screenshots/PASS_User_extracts_test_d_20260522_220101.png
+2026-05-22 22:01:02,140 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:01:02,188 - INFO - CLICKED FIELD: Raebareli
+2026-05-22 22:01:09,312 - INFO - TYPED CITY: Raebareli
+2026-05-22 22:01:12,392 - INFO - SELECTED CITY: Raebareli
+2026-05-22 22:01:14,393 - INFO - STEP PASSED: User provides search source city from CSV - CAPTURING SCREENSHOT
+2026-05-22 22:01:14,549 - INFO - Screenshot saved at: reports/screenshots/PASS_User_provides_search_20260522_220114.png
+2026-05-22 22:01:14,552 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:01:14,582 - INFO - CLICKED FIELD: Raebareli
+2026-05-22 22:01:21,770 - INFO - TYPED CITY: Raebareli
+2026-05-22 22:01:24,855 - INFO - SELECTED CITY: Raebareli
+2026-05-22 22:01:26,856 - INFO - STEP PASSED: User provides search destination city from CSV - CAPTURING SCREENSHOT
+2026-05-22 22:01:27,003 - INFO - Screenshot saved at: reports/screenshots/PASS_User_provides_search_20260522_220126.png
+2026-05-22 22:01:27,007 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:01:27,007 - INFO - CLICKING SEARCH BUTTON
+2026-05-22 22:01:29,095 - INFO - SEARCH BUTTON CLICKED SUCCESSFULLY
+2026-05-22 22:01:39,096 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:01:39,096 - INFO - POM LOG: VERIFYING RESULTS PAGE
+2026-05-22 22:01:49,205 - INFO - POM LOG: NOT ON SEARCH RESULTS PAGE (Expected behavior for Negative Tests)
+2026-05-22 22:01:49,207 - INFO - E2E ASSERTION PASSED: Navigated to Search Results Page
+2026-05-22 22:01:49,207 - INFO - STEP PASSED: User clicks on Search Buses button - CAPTURING SCREENSHOT
+2026-05-22 22:01:49,354 - INFO - Screenshot saved at: reports/screenshots/PASS_User_clicks_on_Searc_20260522_220149.png
+2026-05-22 22:01:49,357 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:01:49,380 - INFO - POM LOG: SAME CITY ERROR DETECTED -> The Departure City and Destination City cannot be same. Please re-type.
+2026-05-22 22:01:49,526 - INFO - Screenshot saved at: reports/screenshots/same_city_error_20260522_220149.png
+2026-05-22 22:01:49,527 - INFO - STEP PASSED: User should see an error message for same source and destination - CAPTURING SCREENSHOT
+2026-05-22 22:01:49,694 - INFO - Screenshot saved at: reports/screenshots/PASS_User_should_see_an_e_20260522_220149.png
+2026-05-22 22:01:49,696 - INFO - ========== CLOSING SCENARIO: Verify that buses are not displayed for same source and destination ==========
+2026-05-22 22:01:52,068 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 22:01:52,071 - INFO - ========== STARTING SCENARIO: Verify that No Buses Found message is displayed when invalid route selected ==========
+2026-05-22 22:01:55,336 - INFO - Implicit wait fetched : 10
+2026-05-22 22:01:55,337 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/bus-tickets/
+2026-05-22 22:02:04,321 - INFO - CURRENT URL: https://www.makemytrip.com/bus-tickets/
+2026-05-22 22:02:04,322 - INFO - Application Launched via environment.py
+2026-05-22 22:02:04,322 - INFO - STEP PASSED: User launches MakeMyTrip application - CAPTURING SCREENSHOT
+2026-05-22 22:02:04,569 - INFO - Screenshot saved at: reports/screenshots/PASS_User_launches_MakeMy_20260522_220204.png
+2026-05-22 22:02:04,571 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:02:06,636 - INFO - LOGIN POPUP CLOSED
+2026-05-22 22:02:07,636 - INFO - STEP PASSED: User closes the login popup - CAPTURING SCREENSHOT
+2026-05-22 22:02:07,796 - INFO - Screenshot saved at: reports/screenshots/PASS_User_closes_the_logi_20260522_220207.png
+2026-05-22 22:02:07,798 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:02:17,862 - INFO - BUS TAB ISSUE: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff795c47de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff795c47e50+14900]
+	uc_driver!(No symbol) [0x7ff7959ad5ad]
+	uc_driver!(No symbol) [0x7ff795a07822]
+	uc_driver!(No symbol) [0x7ff795a07b2c]
+	uc_driver!(No symbol) [0x7ff795a57d17]
+	uc_driver!(No symbol) [0x7ff795a5486f]
+	uc_driver!(No symbol) [0x7ff7959f9df8]
+	uc_driver!(No symbol) [0x7ff7959face3]
+	uc_driver!GetHandleVerifier [0x7ff795f5cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff795f57375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff795f7bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff795c66045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff795c6ecec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff795c51bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff795c51d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff795c360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffd7462e957+17]
+	ntdll!RtlUserThreadStart [0x7ffd765a427c+2c]
+
+2026-05-22 22:02:17,862 - INFO - STEP PASSED: User navigates to the Bus section - CAPTURING SCREENSHOT
+2026-05-22 22:02:18,015 - INFO - Screenshot saved at: reports/screenshots/PASS_User_navigates_to_th_20260522_220217.png
+2026-05-22 22:02:18,017 - INFO - Loading test data from CSV: S:\Capstone Project\BDD_MMT_Buses\testdata\no_bus_route_data.csv for row 1
+2026-05-22 22:02:18,019 - INFO - CSV Data successfully loaded: {'from_city': 'Raebareli', 'to_city': 'Pune'}
+2026-05-22 22:02:18,019 - INFO - STEP PASSED: User extracts test data from CSV "no_bus_route_data.csv" for row "1" - CAPTURING SCREENSHOT
+2026-05-22 22:02:18,168 - INFO - Screenshot saved at: reports/screenshots/PASS_User_extracts_test_d_20260522_220218.png
+2026-05-22 22:02:18,170 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:02:18,218 - INFO - CLICKED FIELD: Raebareli
+2026-05-22 22:02:25,354 - INFO - TYPED CITY: Raebareli
+2026-05-22 22:02:28,439 - INFO - SELECTED CITY: Raebareli
+2026-05-22 22:02:30,439 - INFO - STEP PASSED: User provides search source city from CSV - CAPTURING SCREENSHOT
+2026-05-22 22:02:30,573 - INFO - Screenshot saved at: reports/screenshots/PASS_User_provides_search_20260522_220230.png
+2026-05-22 22:02:30,575 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:02:30,604 - INFO - CLICKED FIELD: Pune
+2026-05-22 22:02:36,028 - INFO - TYPED CITY: Pune
+2026-05-22 22:02:39,099 - INFO - SELECTED CITY: Pune
+2026-05-22 22:02:41,100 - INFO - STEP PASSED: User provides search destination city from CSV - CAPTURING SCREENSHOT
+2026-05-22 22:02:41,224 - INFO - Screenshot saved at: reports/screenshots/PASS_User_provides_search_20260522_220241.png
+2026-05-22 22:02:41,227 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:02:42,311 - INFO - DATE BOX CLICKED
+2026-05-22 22:02:44,379 - INFO - DATE SELECTED
+2026-05-22 22:02:46,381 - INFO - STEP PASSED: User selects a travel date - CAPTURING SCREENSHOT
+2026-05-22 22:02:46,529 - INFO - Screenshot saved at: reports/screenshots/PASS_User_selects_a_trave_20260522_220246.png
+2026-05-22 22:02:46,533 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:02:46,533 - INFO - CLICKING SEARCH BUTTON
+2026-05-22 22:02:50,330 - INFO - SEARCH BUTTON CLICKED SUCCESSFULLY
+2026-05-22 22:03:00,330 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:03:00,330 - INFO - POM LOG: VERIFYING RESULTS PAGE
+2026-05-22 22:03:13,391 - INFO - POM LOG: NOT ON SEARCH RESULTS PAGE (Expected behavior for Negative Tests)
+2026-05-22 22:03:13,395 - INFO - E2E ASSERTION PASSED: Navigated to Search Results Page
+2026-05-22 22:03:13,395 - INFO - STEP PASSED: User clicks on Search Buses button - CAPTURING SCREENSHOT
+2026-05-22 22:03:13,469 - INFO - Screenshot saved at: reports/screenshots/PASS_User_clicks_on_Searc_20260522_220313.png
+2026-05-22 22:03:13,471 - INFO - POM LOG: BasePage initialized
+2026-05-22 22:03:13,472 - INFO - POM LOG: CHECKING FOR EMPTY BUS LIST (NEGATIVE VALIDATION)
+2026-05-22 22:03:27,503 - INFO - POM LOG: Found 0 bus cards on the page.
+2026-05-22 22:03:27,576 - INFO - Screenshot saved at: reports/screenshots/no_buses_found_20260522_220327.png
+2026-05-22 22:03:27,576 - INFO - STEP PASSED: User should see a No Buses Found message - CAPTURING SCREENSHOT
+2026-05-22 22:03:27,652 - INFO - Screenshot saved at: reports/screenshots/PASS_User_should_see_a_No_20260522_220327.png
+2026-05-22 22:03:27,655 - INFO - ========== CLOSING SCENARIO: Verify that No Buses Found message is displayed when invalid route selected ==========
+2026-05-22 22:03:30,024 - INFO - BROWSER CLOSED SUCCESSFULLY

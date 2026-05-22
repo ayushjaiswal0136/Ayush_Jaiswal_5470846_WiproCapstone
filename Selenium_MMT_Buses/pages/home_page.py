@@ -291,6 +291,7 @@ class HomePage:
 
         self.select_date()
 
+        time.sleep(2)
         self.click_search()
 
         logger.info(

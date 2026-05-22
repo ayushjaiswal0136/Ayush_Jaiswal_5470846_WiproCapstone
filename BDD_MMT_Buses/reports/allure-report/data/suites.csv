@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","78212","Assert whether sleeper filter is applied successfully","","2026-05-22","passed","2026-05-22","","","",""
+"","97955","Verify that No Buses Found message is displayed when invalid route selected","","2026-05-22","passed","2026-05-22","","","",""
+"","142353","Successfully search, select, and proceed to payment for a bus ticket","","2026-05-22","passed","2026-05-22","","","",""
+"","101512","Assert seat number selection","","2026-05-22","passed","2026-05-22","","","",""
+"","97210","Assert Booking Page details are correct","","2026-05-22","passed","2026-05-22","","","",""
+"","77232","Verify that searched route information displayed correctly","","2026-05-22","passed","2026-05-22","","","",""
+"","79995","Verify that buses are not displayed for same source and destination","","2026-05-22","passed","2026-05-22","","","",""

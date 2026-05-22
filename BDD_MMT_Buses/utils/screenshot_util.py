@@ -1,5 +1,5 @@
 import os
-import allure
+# import allure
 from datetime import datetime
 from utils.logger import LogGen
 
@@ -21,10 +21,10 @@ class ScreenshotUtil:
         logger.info(f"Screenshot saved at: {screenshot_path}")
 
         # Automatically attach to Allure report
-        allure.attach(
-            driver.get_screenshot_as_png(),
-            name=clean_name,
-            attachment_type=allure.attachment_type.PNG
-        )
+        # allure.attach(
+        #     driver.get_screenshot_as_png(),
+        #     name=clean_name,
+        #     attachment_type=allure.attachment_type.PNG
+        # )
 
         return screenshot_path

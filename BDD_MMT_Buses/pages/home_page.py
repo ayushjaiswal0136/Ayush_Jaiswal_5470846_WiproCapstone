@@ -95,3 +95,13 @@ class HomePage(BasePage):
         self.select_date()
         self.click_search()
         logger.info("BUS SEARCH COMPLETED")
+
+    # NEW: Added method to extract same city error text for Negative Search Scenarios
+    def get_same_city_error(self):
+        try:
+            error_element = self.wait.until(EC.visibility_of_element_located(HomeLocators.SAME_CITY_ERROR))
+            logger.info(f"POM LOG: SAME CITY ERROR DETECTED -> {error_element.text}")
+            return error_element.text
+        except Exception as e:
+            logger.info(f"POM LOG: SAME CITY ERROR NOT FOUND. {str(e)}")
+            return ""

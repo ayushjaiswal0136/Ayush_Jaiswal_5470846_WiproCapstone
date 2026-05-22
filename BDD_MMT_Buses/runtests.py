@@ -21,7 +21,7 @@ if os.path.exists("reports/allure-report"):
 
 # Execute Behave Tests (targeting e2e for now)
 logger.info("Starting Behave Test Execution")
-behave_status = os.system("behave --tags=@e2e")
+behave_status = os.system("behave")
 logger.info(f"Behave Execution Completed with status code : {behave_status}")
 
 # Generate Allure HTML Report
