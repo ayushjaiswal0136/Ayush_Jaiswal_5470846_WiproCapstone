@@ -11,6 +11,26 @@ from utils.screenshot_util import ScreenshotUtil
 
 logger = LogGen.loggen()
 
+def attach_screenshot(driver, name):
+
+    try:
+
+        allure.attach(
+            driver.get_screenshot_as_png(),
+            name=name,
+            attachment_type=allure.attachment_type.PNG
+        )
+
+        logger.info(
+            f"SCREENSHOT ATTACHED: {name}"
+        )
+
+    except Exception as e:
+
+        logger.error(
+            f"FAILED TO ATTACH SCREENSHOT: {str(e)}"
+        )
+
 
 @pytest.fixture()
 def driver():

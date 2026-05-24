@@ -1,3 +1,0 @@
- python -m behave features/bus_e2e.feature
-
- python -m behave features/bus_search.feature

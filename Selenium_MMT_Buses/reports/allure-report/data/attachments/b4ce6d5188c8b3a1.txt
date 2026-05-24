@@ -1,0 +1,67 @@
+[32mINFO    [0m root:conftest.py:37 ========== STARTING TEST ==========
+[32mINFO    [0m root:conftest.py:47 OPENING MAKEMYTRIP WEBSITE
+[32mINFO    [0m root:conftest.py:56 CURRENT URL: https://www.makemytrip.com/bus-tickets/
+[32mINFO    [0m root:test_filter_validation_positive.py:26 ========== TEST STARTED : SLEEPER FILTER ==========
+[32mINFO    [0m root:test_filter_validation_positive.py:32 FROM CITY : Lucknow
+[32mINFO    [0m root:test_filter_validation_positive.py:33 TO CITY :  Delhi
+[32mINFO    [0m root:home_page.py:604 STARTING BUS SEARCH
+[32mINFO    [0m root:home_page.py:342 LOGIN POPUP CLOSED
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Login_Popup_Closed
+[32mINFO    [0m root:home_page.py:412 BUS TAB ISSUE: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff6c7bf1e35+2e8d45]
+	uc_driver!GetHandleVerifier [0x7ff6c791e6c0+155d0]
+	uc_driver!(No symbol) [0x7ff6c766d57d]
+	uc_driver!(No symbol) [0x7ff6c76c767e]
+	uc_driver!(No symbol) [0x7ff6c76c798c]
+	uc_driver!(No symbol) [0x7ff6c77180c7]
+	uc_driver!(No symbol) [0x7ff6c7714c63]
+	uc_driver!(No symbol) [0x7ff6c76b9d58]
+	uc_driver!(No symbol) [0x7ff6c76bac43]
+	uc_driver!GetHandleVerifier [0x7ff6c7c1dab9+3149c9]
+	uc_driver!GetHandleVerifier [0x7ff6c7c1802b+30ef3b]
+	uc_driver!GetHandleVerifier [0x7ff6c7c3c872+333782]
+	uc_driver!GetHandleVerifier [0x7ff6c793b785+32695]
+	uc_driver!GetHandleVerifier [0x7ff6c79442bc+3b1cc]
+	uc_driver!GetHandleVerifier [0x7ff6c7927f24+1ee34]
+	uc_driver!GetHandleVerifier [0x7ff6c79280b4+1efc4]
+	uc_driver!GetHandleVerifier [0x7ff6c790bf27+2e37]
+	KERNEL32!BaseThreadInitThunk [0x7fffd651e957+17]
+	ntdll!RtlUserThreadStart [0x7fffd7a0427c+2c]
+
+[32mINFO    [0m root:home_page.py:622 FROM CITY: Lucknow
+[32mINFO    [0m root:home_page.py:428 CLICKED FIELD: Lucknow
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Lucknow_Field_Clicked
+[32mINFO    [0m root:home_page.py:468 TYPED CITY: Lucknow
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Lucknow_Typed
+[32mINFO    [0m root:home_page.py:486 SELECTED CITY: Lucknow
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Lucknow_Selected
+[32mINFO    [0m root:home_page.py:631 TO CITY:  Delhi
+[32mINFO    [0m root:home_page.py:428 CLICKED FIELD:  Delhi
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED:  Delhi_Field_Clicked
+[32mINFO    [0m root:home_page.py:468 TYPED CITY:  Delhi
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED:  Delhi_Typed
+[32mINFO    [0m root:home_page.py:486 SELECTED CITY:  Delhi
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED:  Delhi_Selected
+[32mINFO    [0m root:home_page.py:523 DATE BOX CLICKED
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Date_Box_Clicked
+[32mINFO    [0m root:home_page.py:546 DATE SELECTED
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Date_Selected
+[32mINFO    [0m root:home_page.py:567 CLICKING SEARCH BUTTON
+[32mINFO    [0m root:home_page.py:591 SEARCH BUTTON CLICKED SUCCESSFULLY
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Search_Button_Clicked
+[32mINFO    [0m root:home_page.py:646 BUS SEARCH COMPLETED
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Bus_Search_Completed
+[32mINFO    [0m root:test_filter_validation_positive.py:41 BUS SEARCH COMPLETED
+[32mINFO    [0m root:base_page.py:72 POM LOG: BasePage initialized
+[32mINFO    [0m root:bus_search_page.py:197 POM LOG: VERIFYING RESULTS PAGE
+[32mINFO    [0m root:bus_search_page.py:211 POM LOG: SEARCH RESULTS CONTAINER VALIDATED
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Bus_Search_Results_Validated
+[32mINFO    [0m root:test_filter_validation_positive.py:48 SEARCH RESULT PAGE VERIFIED
+[32mINFO    [0m root:test_filter_validation_positive.py:54 APPLYING SLEEPER FILTER
+[32mINFO    [0m root:test_filter_validation_positive.py:77 SLEEPER FILTER CLICKED
+[32mINFO    [0m root:test_filter_validation_positive.py:83 VERIFYING SLEEPER FILTER APPLIED
+[32mINFO    [0m root:test_filter_validation_positive.py:103 SLEEPER FILTER VERIFIED SUCCESSFULLY
+[32mINFO    [0m root:test_filter_validation_positive.py:105 ========== TEST PASSED ==========
+[32mINFO    [0m root:conftest.py:62 ========== CLOSING TEST ==========
+[32mINFO    [0m root:conftest.py:68 BROWSER CLOSED SUCCESSFULLY

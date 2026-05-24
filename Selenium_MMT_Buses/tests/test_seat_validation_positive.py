@@ -102,7 +102,7 @@ def test_selected_seat_verification(driver, data):
             )
 
             # VERIFY BOARDING POINT APPEARS
-            WebDriverWait(driver, 5).until(
+            WebDriverWait(driver, 7).until(
                 EC.element_to_be_clickable(
                     bus.FIRST_BOARDING_POINT
                 )

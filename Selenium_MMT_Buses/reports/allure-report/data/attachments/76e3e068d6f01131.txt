@@ -1,0 +1,60 @@
+[32mINFO    [0m root:conftest.py:37 ========== STARTING TEST ==========
+[32mINFO    [0m root:conftest.py:47 OPENING MAKEMYTRIP WEBSITE
+[32mINFO    [0m root:conftest.py:56 CURRENT URL: https://www.makemytrip.com/bus-tickets/
+[32mINFO    [0m root:test_no_bus_available_negative.py:27 ========== NEGATIVE TEST STARTED ==========
+[32mINFO    [0m root:test_no_bus_available_negative.py:38 FROM CITY : Raebareli
+[32mINFO    [0m root:test_no_bus_available_negative.py:39 TO CITY : Pune
+[32mINFO    [0m root:home_page.py:604 STARTING BUS SEARCH
+[32mINFO    [0m root:home_page.py:342 LOGIN POPUP CLOSED
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Login_Popup_Closed
+[32mINFO    [0m root:home_page.py:412 BUS TAB ISSUE: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff6c7bf1e35+2e8d45]
+	uc_driver!GetHandleVerifier [0x7ff6c791e6c0+155d0]
+	uc_driver!(No symbol) [0x7ff6c766d57d]
+	uc_driver!(No symbol) [0x7ff6c76c767e]
+	uc_driver!(No symbol) [0x7ff6c76c798c]
+	uc_driver!(No symbol) [0x7ff6c77180c7]
+	uc_driver!(No symbol) [0x7ff6c7714c63]
+	uc_driver!(No symbol) [0x7ff6c76b9d58]
+	uc_driver!(No symbol) [0x7ff6c76bac43]
+	uc_driver!GetHandleVerifier [0x7ff6c7c1dab9+3149c9]
+	uc_driver!GetHandleVerifier [0x7ff6c7c1802b+30ef3b]
+	uc_driver!GetHandleVerifier [0x7ff6c7c3c872+333782]
+	uc_driver!GetHandleVerifier [0x7ff6c793b785+32695]
+	uc_driver!GetHandleVerifier [0x7ff6c79442bc+3b1cc]
+	uc_driver!GetHandleVerifier [0x7ff6c7927f24+1ee34]
+	uc_driver!GetHandleVerifier [0x7ff6c79280b4+1efc4]
+	uc_driver!GetHandleVerifier [0x7ff6c790bf27+2e37]
+	KERNEL32!BaseThreadInitThunk [0x7fffd651e957+17]
+	ntdll!RtlUserThreadStart [0x7fffd7a0427c+2c]
+
+[32mINFO    [0m root:home_page.py:622 FROM CITY: Raebareli
+[32mINFO    [0m root:home_page.py:428 CLICKED FIELD: Raebareli
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Raebareli_Field_Clicked
+[32mINFO    [0m root:home_page.py:468 TYPED CITY: Raebareli
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Raebareli_Typed
+[32mINFO    [0m root:home_page.py:486 SELECTED CITY: Raebareli
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Raebareli_Selected
+[32mINFO    [0m root:home_page.py:631 TO CITY: Pune
+[32mINFO    [0m root:home_page.py:428 CLICKED FIELD: Pune
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Pune_Field_Clicked
+[32mINFO    [0m root:home_page.py:468 TYPED CITY: Pune
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Pune_Typed
+[32mINFO    [0m root:home_page.py:486 SELECTED CITY: Pune
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Pune_Selected
+[32mINFO    [0m root:home_page.py:523 DATE BOX CLICKED
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Date_Box_Clicked
+[32mINFO    [0m root:home_page.py:546 DATE SELECTED
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Date_Selected
+[32mINFO    [0m root:home_page.py:567 CLICKING SEARCH BUTTON
+[32mINFO    [0m root:home_page.py:591 SEARCH BUTTON CLICKED SUCCESSFULLY
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Search_Button_Clicked
+[32mINFO    [0m root:home_page.py:646 BUS SEARCH COMPLETED
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Bus_Search_Completed
+[32mINFO    [0m root:test_no_bus_available_negative.py:52 BUS SEARCH COMPLETED
+[32mINFO    [0m root:test_no_bus_available_negative.py:71 NO BUS MESSAGE : No bus found on this route
+[32mINFO    [0m root:test_no_bus_available_negative.py:79 NO BUS FOUND NEGATIVE TEST PASSED SUCCESSFULLY
+[32mINFO    [0m root:test_no_bus_available_negative.py:81 ========== TEST PASSED ==========
+[32mINFO    [0m root:conftest.py:62 ========== CLOSING TEST ==========
+[32mINFO    [0m root:conftest.py:68 BROWSER CLOSED SUCCESSFULLY

@@ -1,0 +1,48 @@
+[32mINFO    [0m root:conftest.py:37 ========== STARTING TEST ==========
+[32mINFO    [0m root:conftest.py:47 OPENING MAKEMYTRIP WEBSITE
+[32mINFO    [0m root:conftest.py:56 CURRENT URL: https://www.makemytrip.com/bus-tickets/
+[32mINFO    [0m root:test_same_source_destination_negative.py:25 ========== NEGATIVE TEST STARTED ==========
+[32mINFO    [0m root:test_same_source_destination_negative.py:36 FROM CITY : Raebareli
+[32mINFO    [0m root:test_same_source_destination_negative.py:37 TO CITY :  Raebareli
+[32mINFO    [0m root:home_page.py:342 LOGIN POPUP CLOSED
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Login_Popup_Closed
+[32mINFO    [0m root:home_page.py:412 BUS TAB ISSUE: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff6c7bf1e35+2e8d45]
+	uc_driver!GetHandleVerifier [0x7ff6c791e6c0+155d0]
+	uc_driver!(No symbol) [0x7ff6c766d57d]
+	uc_driver!(No symbol) [0x7ff6c76c767e]
+	uc_driver!(No symbol) [0x7ff6c76c798c]
+	uc_driver!(No symbol) [0x7ff6c77180c7]
+	uc_driver!(No symbol) [0x7ff6c7714c63]
+	uc_driver!(No symbol) [0x7ff6c76b9d58]
+	uc_driver!(No symbol) [0x7ff6c76bac43]
+	uc_driver!GetHandleVerifier [0x7ff6c7c1dab9+3149c9]
+	uc_driver!GetHandleVerifier [0x7ff6c7c1802b+30ef3b]
+	uc_driver!GetHandleVerifier [0x7ff6c7c3c872+333782]
+	uc_driver!GetHandleVerifier [0x7ff6c793b785+32695]
+	uc_driver!GetHandleVerifier [0x7ff6c79442bc+3b1cc]
+	uc_driver!GetHandleVerifier [0x7ff6c7927f24+1ee34]
+	uc_driver!GetHandleVerifier [0x7ff6c79280b4+1efc4]
+	uc_driver!GetHandleVerifier [0x7ff6c790bf27+2e37]
+	KERNEL32!BaseThreadInitThunk [0x7fffd651e957+17]
+	ntdll!RtlUserThreadStart [0x7fffd7a0427c+2c]
+
+[32mINFO    [0m root:home_page.py:428 CLICKED FIELD: Raebareli
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Raebareli_Field_Clicked
+[32mINFO    [0m root:home_page.py:468 TYPED CITY: Raebareli
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Raebareli_Typed
+[32mINFO    [0m root:home_page.py:486 SELECTED CITY: Raebareli
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED: Raebareli_Selected
+[32mINFO    [0m root:home_page.py:428 CLICKED FIELD:  Raebareli
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED:  Raebareli_Field_Clicked
+[32mINFO    [0m root:home_page.py:468 TYPED CITY:  Raebareli
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED:  Raebareli_Typed
+[32mINFO    [0m root:home_page.py:486 SELECTED CITY:  Raebareli
+[32mINFO    [0m root:conftest.py:24 SCREENSHOT ATTACHED:  Raebareli_Selected
+[32mINFO    [0m root:test_same_source_destination_negative.py:74 SAME SOURCE AND DESTINATION ENTERED
+[32mINFO    [0m root:test_same_source_destination_negative.py:93 ERROR MESSAGE : The Departure City and Destination City cannot be same. Please re-type.
+[32mINFO    [0m root:test_same_source_destination_negative.py:101 SAME ROUTE NEGATIVE TEST PASSED SUCCESSFULLY
+[32mINFO    [0m root:test_same_source_destination_negative.py:103 ========== TEST PASSED ==========
+[32mINFO    [0m root:conftest.py:62 ========== CLOSING TEST ==========
+[32mINFO    [0m root:conftest.py:68 BROWSER CLOSED SUCCESSFULLY
